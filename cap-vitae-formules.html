@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cap Vitae — Nos formules</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16292D;--deep:#10333C;--teal:#2A5A66;
+    --brass:#BD8438;--brass-soft:#E7D4B4;
+    --paper:#F1F4F2;--card:#FBFCFB;--muted:#5E6E6F;--line:#D9E0DD;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:980px;margin:0 auto;padding:46px 28px 60px;}
+  /* header */
+  .brandrow{display:flex;align-items:center;gap:11px;margin-bottom:34px;}
+  .brandmark{width:28px;height:28px;}
+  .brandname{font-family:'Fraunces',serif;font-weight:600;font-size:19px;color:var(--deep);}
+  .brandname span{color:var(--brass);}
+  .eyebrow{font-family:'Space Grotesk',sans-serif;text-transform:uppercase;letter-spacing:.22em;font-size:11px;color:var(--brass);margin:0 0 10px;}
+  h1{font-family:'Fraunces',serif;font-weight:500;font-size:34px;line-height:1.12;margin:0 0 10px;color:var(--deep);max-width:620px;}
+  .sub{font-size:15.5px;color:var(--muted);margin:0 0 38px;max-width:600px;}
+  /* grid */
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start;}
+  .plan{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:26px 24px 28px;position:relative;display:flex;flex-direction:column;}
+  .plan.feat{border:1.5px solid var(--brass);box-shadow:0 18px 44px -24px rgba(189,132,56,.55);}
+  .badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--brass);color:#fff;font-family:'Space Grotesk',sans-serif;font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:5px 13px;border-radius:20px;white-space:nowrap;}
+  .pname{font-family:'Fraunces',serif;font-weight:600;font-size:21px;color:var(--deep);margin:0 0 4px;}
+  .ptag{font-size:13px;color:var(--muted);margin:0 0 20px;min-height:38px;}
+  .price{display:flex;align-items:baseline;gap:6px;margin-bottom:4px;}
+  .price .amount{font-family:'Fraunces',serif;font-size:38px;font-weight:600;color:var(--deep);line-height:1;}
+  .price .unit{font-size:13.5px;color:var(--muted);}
+  .price-note{font-family:'Space Grotesk',sans-serif;font-size:11px;letter-spacing:.06em;color:var(--brass);text-transform:uppercase;margin:0 0 22px;}
+  ul{list-style:none;margin:0 0 24px;padding:0;flex:1;}
+  li{display:flex;gap:10px;font-size:13.7px;padding:7px 0;border-bottom:1px solid #eef1ef;color:var(--ink);}
+  li:last-child{border-bottom:none;}
+  li svg{flex:none;margin-top:3px;}
+  li.off{color:#9aa6a6;}
+  li.hi{font-weight:600;color:var(--deep);}
+  .cta{display:block;text-align:center;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13.5px;letter-spacing:.03em;padding:13px;border-radius:6px;border:1.5px solid var(--deep);color:var(--deep);transition:.15s;}
+  .cta:hover{background:var(--deep);color:#fff;}
+  .cta.solid{background:var(--brass);border-color:var(--brass);color:#fff;}
+  .cta.solid:hover{background:#a87026;border-color:#a87026;}
+  /* footnote */
+  .foot{margin-top:30px;font-size:12.5px;color:var(--muted);font-style:italic;border-left:2px solid var(--brass-soft);padding-left:14px;max-width:680px;}
+  @media (max-width:760px){
+    .grid{grid-template-columns:1fr;gap:24px;}
+    .ptag{min-height:0;}
+    h1{font-size:27px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brandrow">
+    <svg class="brandmark" viewBox="0 0 40 40" fill="none">
+      <circle cx="20" cy="20" r="18" stroke="#BD8438" stroke-width="1.5"/>
+      <path d="M20 5 L25 20 L20 35 L15 20 Z" fill="#BD8438"/>
+      <circle cx="20" cy="20" r="2.5" fill="#10333C"/>
+    </svg>
+    <div class="brandname">Cap<span>Vitae</span></div>
+  </div>
+
+  <p class="eyebrow">Nos formules</p>
+  <h1>Trois façons d'avancer, selon là où vous en êtes</h1>
+  <p class="sub">« Le Plan » vous donne votre cap, en une fois. Les deux abonnements le reprennent en entier et vont plus loin, pour qui postule chaque semaine.</p>
+
+  <div class="grid">
+
+    <!-- PLAN -->
+    <div class="plan">
+      <div class="pname">Le Plan</div>
+      <div class="ptag">Vous changez de voie et voulez une stratégie claire, une fois pour toutes.</div>
+      <div class="price"><span class="amount">29€</span><span class="unit">paiement unique</span></div>
+      <div class="price-note">Sans abonnement</div>
+      <ul>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Diagnostic + vos atouts retraduits</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>CV optimisé + lettre de motivation</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Profil LinkedIn (titre + résumé)</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Plan d'action sur 30 jours</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>De vraies offres pour se lancer</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Livraison Word modifiable + PDF</li>
+        <li class="off"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M4 8h8" stroke="#9aa6a6" stroke-width="2" stroke-linecap="round"/></svg>Pas de CV adapté offre par offre</li>
+      </ul>
+      <a class="cta" href="formulaire.html">Choisir Le Plan</a>
+    </div>
+
+    <!-- CANDIDATURE ACTIVE -->
+    <div class="plan feat">
+      <div class="badge">Le plus populaire</div>
+      <div class="pname">Candidature active</div>
+      <div class="ptag">Vous postulez à beaucoup d'offres et voulez un CV adapté à chacune.</div>
+      <div class="price"><span class="amount">17€</span><span class="unit">/ mois</span></div>
+      <div class="price-note">Sans engagement</div>
+      <ul>
+        <li class="hi"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout « Le Plan », inclus</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>CV + lettre sur-mesure pour chaque offre (jusqu'à 10/mois)</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Adaptés en temps réel au marché</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Livraison Word + PDF à chaque fois</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Résiliable à tout moment</li>
+        <li class="off"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M4 8h8" stroke="#9aa6a6" stroke-width="2" stroke-linecap="round"/></svg>Préparation entretien non incluse</li>
+      </ul>
+      <a class="cta solid" href="https://buy.stripe.com/6oU8wH4cy0zQarq1LkdZ608">S'abonner</a>
+    </div>
+
+    <!-- CAP PRO -->
+    <div class="plan">
+      <div class="pname">Cap Pro</div>
+      <div class="ptag">Vous voulez mettre toutes les chances de votre côté, sans limite.</div>
+      <div class="price"><span class="amount">39€</span><span class="unit">/ mois</span></div>
+      <div class="price-note">Sans engagement</div>
+      <ul>
+        <li class="hi"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout « Candidature active », en illimité</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Préparation aux entretiens (questions probables + réponses pour votre reconversion)</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Optimisation LinkedIn complète</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Votre argumentaire de reconversion (pitch 2 min)</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Support prioritaire</li>
+      </ul>
+      <a class="cta" href="https://buy.stripe.com/9B63cn24qaaq432ey6dZ609">Choisir Cap Pro</a>
+    </div>
+
+  </div>
+
+  <p class="foot">Prix indiqués à titre de point de départ, à tester puis ajuster selon vos retours réels — ce ne sont pas des montants définitifs. « Le Plan » est un achat unique (porte d'entrée), les deux autres sont des abonnements qui installent un revenu récurrent. Toutes les formules sont 100 % automatisées : aucune ne mobilise votre temps personnel.</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cap Vitae — Votre plan de reconversion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16292D;--deep:#10333C;--teal:#2A5A66;
+    --brass:#BD8438;--brass-soft:#E7D4B4;
+    --paper:#F1F4F2;--card:#FBFCFB;--muted:#5E6E6F;--line:#D9E0DD;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:680px;margin:0 auto;padding:46px 28px 60px;}
+  .brandrow{display:flex;align-items:center;gap:11px;margin-bottom:34px;}
+  .brandmark{width:28px;height:28px;}
+  .brandname{font-family:'Fraunces',serif;font-weight:600;font-size:19px;color:var(--deep);}
+  .brandname span{color:var(--brass);}
+  .eyebrow{font-family:'Space Grotesk',sans-serif;text-transform:uppercase;letter-spacing:.22em;font-size:11px;color:var(--brass);margin:0 0 10px;}
+  h1{font-family:'Fraunces',serif;font-weight:500;font-size:30px;line-height:1.14;margin:0 0 10px;color:var(--deep);}
+  .sub{font-size:15px;color:var(--muted);margin:0 0 14px;}
+  .rgpd{font-size:12.5px;color:var(--teal);background:#e8f0ed;border:1px solid #cfe0da;border-radius:6px;padding:9px 13px;margin:0 0 32px;display:inline-block;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:28px 26px;margin-bottom:20px;}
+  .card h2{font-family:'Fraunces',serif;font-weight:600;font-size:17px;color:var(--deep);margin:0 0 4px;}
+  .card .hint{font-size:12.5px;color:var(--muted);margin:0 0 18px;}
+  label{display:block;font-weight:500;font-size:13.5px;margin:14px 0 5px;color:var(--ink);}
+  label .opt{color:var(--muted);font-weight:400;}
+  input,textarea,select{width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:7px;font-family:inherit;font-size:14px;background:#fff;color:var(--ink);}
+  input:focus,textarea:focus,select:focus{outline:none;border-color:var(--brass);}
+  textarea{min-height:90px;resize:vertical;}
+  .file-note{font-size:12px;color:var(--muted);margin-top:5px;}
+  .submit{margin-top:8px;width:100%;background:var(--brass);color:#fff;border:none;padding:15px;border-radius:7px;font-family:'Space Grotesk',sans-serif;font-size:15px;letter-spacing:.02em;cursor:pointer;transition:.15s;}
+  .submit:hover{background:#a87026;}
+  .submit:disabled{background:#bbb;cursor:not-allowed;}
+  #etat{margin-top:18px;padding:14px 16px;border-radius:7px;font-size:13.5px;display:none;white-space:pre-wrap;}
+  .attente{background:#fff8e6;border:1px solid #e8d48a;}
+  .erreur{background:#fdecec;border:1px solid #e89a9a;}
+  .foot{margin-top:24px;font-size:12px;color:var(--muted);font-style:italic;text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brandrow">
+    <svg class="brandmark" viewBox="0 0 40 40" fill="none">
+      <circle cx="20" cy="20" r="18" stroke="#BD8438" stroke-width="1.5"/>
+      <path d="M20 5 L25 20 L20 35 L15 20 Z" fill="#BD8438"/>
+      <circle cx="20" cy="20" r="2.5" fill="#10333C"/>
+    </svg>
+    <div class="brandname">Cap<span>Vitae</span></div>
+  </div>
+
+  <p class="eyebrow">Le Plan &middot; 29 &euro;</p>
+  <h1>Parlez-nous de votre projet</h1>
+  <p class="sub">Quelques minutes suffisent. &Agrave; partir de vos r&eacute;ponses et des vraies offres du march&eacute;, nous b&acirc;tissons votre plan de reconversion sur-mesure.</p>
+  <p class="rgpd">Votre CV n'est jamais conserv&eacute; apr&egrave;s g&eacute;n&eacute;ration.</p>
+
+  <div class="card">
+    <h2>Vous</h2>
+    <p class="hint">Pour vous adresser votre plan personnalis&eacute;.</p>
+    <label>Pr&eacute;nom</label>
+    <input id="prenom" type="text" placeholder="Sophie">
+    <label>Email <span class="opt">(le plan y sera envoy&eacute;)</span></label>
+    <input id="email" type="email" placeholder="vous@exemple.fr">
+  </div>
+
+  <div class="card">
+    <h2>Votre projet</h2>
+    <p class="hint">Le m&eacute;tier que vous visez, et o&ugrave; vous le cherchez.</p>
+    <label>M&eacute;tier vis&eacute;</label>
+    <input id="metier" type="text" placeholder="Charg&eacute; de ressources humaines">
+    <label>Ville <span class="opt">(pour trouver de vraies offres locales)</span></label>
+    <input id="lieu" type="text" placeholder="Nantes">
+    <label>Type de contrat <span class="opt">(facultatif)</span></label>
+    <select id="contrat">
+      <option value="">Peu importe</option>
+      <option value="CDI">CDI</option>
+      <option value="CDD">CDD</option>
+      <option value="Alternance">Alternance</option>
+      <option value="Int&eacute;rim">Int&eacute;rim</option>
+    </select>
+    <label>Votre situation, en quelques mots</label>
+    <textarea id="situation" placeholder="Ex. : Apr&egrave;s 15 ans en grande distribution, je souhaite me reconvertir dans les ressources humaines."></textarea>
+  </div>
+
+  <div class="card">
+    <h2>Votre parcours</h2>
+    <p class="hint">Deux options : d&eacute;posez votre ancien CV, ou d&eacute;crivez votre parcours. Au choix.</p>
+    <label>D&eacute;poser mon ancien CV <span class="opt">(PDF ou Word &mdash; facultatif)</span></label>
+    <input id="cv" type="file" accept=".pdf,.doc,.docx">
+    <p class="file-note">Le contenu est lu pour b&acirc;tir votre plan, puis effac&eacute;. Jamais conserv&eacute;.</p>
+    <label>&hellip; ou d&eacute;crire mon parcours</label>
+    <textarea id="parcours" placeholder="Vos postes, vos missions, vos ann&eacute;es d'exp&eacute;rience&hellip;"></textarea>
+  </div>
+
+  <button id="btn" class="submit" onclick="continuer()">Continuer vers le paiement &mdash; 29 &euro;</button>
+  <div id="etat"></div>
+
+  <p class="foot">Paiement s&eacute;curis&eacute; par Stripe. Vous recevrez votre plan par email apr&egrave;s le paiement.</p>
+
+</div>
+
+<script>
+const WORKER = "https://cap-vitae.dni-business44.workers.dev";
+const LIEN_PAIEMENT = "https://buy.stripe.com/bJedR138u96m2YY61AdZ607";
+
+function afficher(classe, texte){
+  const e = document.getElementById("etat");
+  e.style.display = "block";
+  e.className = classe;
+  e.textContent = texte;
+}
+
+async function continuer(){
+  const btn = document.getElementById("btn");
+  const prenom = document.getElementById("prenom").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const metier = document.getElementById("metier").value.trim();
+
+  if(!prenom || !email || !metier){
+    afficher("erreur", "Merci de renseigner au moins votre prenom, votre email et le metier vise.");
+    return;
+  }
+  if(!email.includes("@")){
+    afficher("erreur", "Votre adresse email ne semble pas valide.");
+    return;
+  }
+
+  const data = {
+    prenom: prenom,
+    email: email,
+    metier: metier,
+    lieu: document.getElementById("lieu").value.trim(),
+    contrat: document.getElementById("contrat").value,
+    situation: document.getElementById("situation").value.trim(),
+    parcours: document.getElementById("parcours").value.trim(),
+  };
+
+  const fichier = document.getElementById("cv").files[0];
+  if(fichier){
+    try{
+      data.cv_nom = fichier.name;
+      data.cv_base64 = await lireFichier(fichier);
+    }catch(e){}
+  }
+
+  btn.disabled = true;
+  afficher("attente", "Travail en cours\u2026 Merci de patienter.");
+
+  try{
+    const r = await fetch(WORKER + "/enregistrer", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+    const d = await r.json();
+    if(!d.ok || !d.numero){
+      afficher("erreur", "Une erreur est survenue. Merci de reessayer dans un instant.");
+      btn.disabled = false;
+      return;
+    }
+    const url = LIEN_PAIEMENT + "?client_reference_id=" + encodeURIComponent(d.numero);
+    window.location.href = url;
+  }catch(e){
+    afficher("erreur", "Connexion impossible. Verifiez votre connexion et reessayez.");
+    btn.disabled = false;
+  }
+}
+
+function lireFichier(file){
+  return new Promise((resolve, reject)=>{
+    const reader = new FileReader();
+    reader.onload = ()=> resolve(reader.result.split(",")[1]);
+    reader.onerror = ()=> reject(new Error("lecture echouee"));
+    reader.readAsDataURL(file);
+  });
+}
+</script>
+</body>
+</html>
