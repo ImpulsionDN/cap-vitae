@@ -30,6 +30,8 @@
   .hero{background:linear-gradient(160deg,#10333C 0%,#16424b 100%);color:#fff;padding:56px 28px 84px;text-align:center;position:relative;overflow:hidden;min-height:86vh;display:flex;flex-direction:column;justify-content:center;box-sizing:border-box;}
   .hero::after{content:"";position:absolute;width:640px;height:640px;border:2px solid rgba(189,132,56,.5);border-radius:50%;top:-150px;right:-110px;}
   .hero::before{content:"";position:absolute;width:440px;height:440px;border:2px solid rgba(189,132,56,.32);border-radius:50%;top:-50px;right:-10px;}
+  .hero-compass{position:absolute;top:50px;right:90px;width:240px;height:240px;z-index:0;pointer-events:none;}
+  @media (max-width:820px){.hero-compass{width:150px;top:30px;right:20px;}}
   .hero-in{max-width:720px;margin:0 auto;position:relative;z-index:1;}
   .hero .kick{font-family:'Space Grotesk',sans-serif;text-transform:uppercase;letter-spacing:.24em;font-size:11px;color:var(--brass-soft);margin:0 0 20px;}
   .hero h1{font-family:'Fraunces',serif;font-weight:500;font-size:48px;line-height:1.08;margin:0 0 22px;}
@@ -166,6 +168,17 @@
 
 <!-- 1. ACCROCHE ÉMOTIONNELLE -->
 <section class="hero">
+  <svg class="hero-compass" viewBox="0 0 230 230" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g stroke="rgba(189,132,56,.45)" stroke-width="2" stroke-linecap="round">
+      <line x1="115" y1="34" x2="115" y2="52"/><line x1="115" y1="178" x2="115" y2="196"/>
+      <line x1="34" y1="115" x2="52" y2="115"/><line x1="178" y1="115" x2="196" y2="115"/>
+    </g>
+    <polygon points="115,46 131,115 115,109 99,115" fill="rgba(189,132,56,.6)"/>
+    <polygon points="115,184 99,115 115,121 131,115" fill="rgba(189,132,56,.4)"/>
+    <polygon points="184,115 115,99 121,115 115,131" fill="rgba(189,132,56,.32)"/>
+    <polygon points="46,115 115,131 109,115 115,99" fill="rgba(189,132,56,.5)"/>
+    <circle cx="115" cy="115" r="8" fill="none" stroke="rgba(189,132,56,.6)" stroke-width="2"/>
+  </svg>
   <div class="hero-in">
     <p class="kick">Reconversion &middot; Retour &agrave; l'emploi</p>
     <h1>Changer de voie,<br>ce n'est pas repartir <em>de z&eacute;ro</em>.</h1>
