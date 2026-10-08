@@ -25,7 +25,7 @@
   h1{font-family:'Fraunces',serif;font-weight:500;font-size:34px;line-height:1.12;margin:0 0 10px;color:var(--deep);max-width:620px;}
   .sub{font-size:15.5px;color:var(--muted);margin:0 0 38px;max-width:600px;}
   /* grid */
-  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start;}
+  .grid{display:grid;grid-template-columns:minmax(0,440px);gap:18px;align-items:start;}
   .plan{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:26px 24px 28px;position:relative;display:flex;flex-direction:column;}
   .plan.feat{border:1.5px solid var(--brass);box-shadow:0 18px 44px -24px rgba(189,132,56,.55);}
   .badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--brass);color:#fff;font-family:'Space Grotesk',sans-serif;font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:5px 13px;border-radius:20px;white-space:nowrap;}
@@ -74,9 +74,9 @@
     <div class="brandname">Cap<span>Vitae</span></div>
   </div>
 
-  <p class="eyebrow">Nos formules</p>
-  <h1>Trois façons d'avancer, selon là où vous en êtes</h1>
-  <p class="sub">« Le Plan » vous donne votre cap, en une fois. Les deux abonnements le reprennent en entier et vont plus loin, pour qui postule chaque semaine.</p>
+  <p class="eyebrow">Notre formule</p>
+  <h1>Votre plan de reconversion, en une fois</h1>
+  <p class="sub">« Le Plan » vous donne votre cap, en une fois : un seul paiement, sans abonnement.</p>
 
   <div class="grid">
 
@@ -92,49 +92,15 @@
         <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Profil LinkedIn (titre + résumé)</li>
         <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Plan d'action sur 30 jours</li>
         <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>De vraies offres pour se lancer</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Livraison Word modifiable + PDF</li>
-        <li class="off"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M4 8h8" stroke="#9aa6a6" stroke-width="2" stroke-linecap="round"/></svg>Pas de CV adapté offre par offre</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Livraison par e-mail, à copier dans votre traitement de texte</li>
       </ul>
       <a class="cta" href="formulaire.html">Choisir Le Plan</a>
     </div>
 
-    <!-- CANDIDATURE ACTIVE -->
-    <div class="plan feat">
-      <div class="badge">Le plus populaire</div>
-      <div class="pname">Candidature active</div>
-      <div class="ptag">Vous postulez à beaucoup d'offres et voulez un CV adapté à chacune.</div>
-      <div class="price"><span class="amount">17€</span><span class="unit">/ mois</span></div>
-      <div class="price-note">Sans engagement</div>
-      <ul>
-        <li class="hi"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout « Le Plan », inclus</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>CV + lettre sur-mesure pour chaque offre (jusqu'à 10/mois)</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Adaptés en temps réel au marché</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Livraison Word + PDF à chaque fois</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Résiliable à tout moment</li>
-        <li class="off"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M4 8h8" stroke="#9aa6a6" stroke-width="2" stroke-linecap="round"/></svg>Préparation entretien non incluse</li>
-      </ul>
-      <a class="cta solid" href="https://buy.stripe.com/6oU8wH4cy0zQarq1LkdZ608">S'abonner</a>
-    </div>
-
-    <!-- CAP PRO -->
-    <div class="plan">
-      <div class="pname">Cap Pro</div>
-      <div class="ptag">Vous voulez mettre toutes les chances de votre côté, sans limite.</div>
-      <div class="price"><span class="amount">39€</span><span class="unit">/ mois</span></div>
-      <div class="price-note">Sans engagement</div>
-      <ul>
-        <li class="hi"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout « Candidature active », en illimité</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Préparation aux entretiens (questions probables + réponses pour votre reconversion)</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Optimisation LinkedIn complète</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Votre argumentaire de reconversion (pitch 2 min)</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Support prioritaire</li>
-      </ul>
-      <a class="cta" href="https://buy.stripe.com/9B63cn24qaaq432ey6dZ609">Choisir Cap Pro</a>
-    </div>
 
   </div>
 
-  <p class="foot">Prix indiqués à titre de point de départ, à tester puis ajuster selon vos retours réels — ce ne sont pas des montants définitifs. « Le Plan » est un achat unique (porte d'entrée), les deux autres sont des abonnements qui installent un revenu récurrent. Toutes les formules sont 100 % automatisées : aucune ne mobilise votre temps personnel.</p>
+  <p class="foot">« Le Plan » est un achat unique : vous payez une fois, sans abonnement ni reconduction. Livraison par e-mail.</p>
 
 </div>
 </body>

@@ -117,7 +117,7 @@
   @media (max-width:820px){.scroll-hint{display:none;}}
 
   /* GRILLE 3 FORMULES */
-  .pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start;max-width:980px;margin:0 auto;}
+  .pricing{display:grid;grid-template-columns:minmax(0,440px);justify-content:center;gap:18px;align-items:start;margin:0 auto;}
   .pcard{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:26px 24px 28px;position:relative;display:flex;flex-direction:column;}
   .pcard.feat{border:1.5px solid var(--brass);box-shadow:0 18px 44px -24px rgba(189,132,56,.55);}
   .pbadge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--brass);color:#fff;font-family:'Space Grotesk',sans-serif;font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:5px 13px;border-radius:20px;white-space:nowrap;}
@@ -184,7 +184,7 @@
     <h1>Changer de voie,<br>ce n'est pas repartir <em>de z&eacute;ro</em>.</h1>
     <p>Racontez-nous votre parcours. On vous livre un plan de reconversion complet, taill&eacute; pour vous &mdash; pas un mod&egrave;le &agrave; remplir.</p>
     <a class="hero-cta" href="formulaire.html">Tracer mon cap &mdash; 29&euro;</a>
-    <div class="reassure">Livr&eacute; par email &middot; Word + PDF &middot; Votre CV n'est jamais conserv&eacute;</div>
+    <div class="reassure">Livr&eacute; par e-mail &middot; Formulaire effac&eacute; d&egrave;s l'envoi du plan, ou au bout de 24 h</div>
   </div>
     <a class="scroll-hint" href="#suite" aria-label="Voir la suite">
       <span>D&eacute;couvrir</span>
@@ -236,17 +236,17 @@
   <p class="eyebrow">Comment &ccedil;a marche</p>
   <h2 class="section">Trois &eacute;tapes, et c'est dans votre bo&icirc;te mail</h2>
   <div class="steps">
-    <div class="step"><div class="n">1</div><h3>Vous racontez</h3><p>Votre parcours, votre projet. D&eacute;posez votre ancien CV, ou d&eacute;crivez-vous.</p></div>
+    <div class="step"><div class="n">1</div><h3>Vous racontez</h3><p>Votre parcours, votre projet. Collez votre ancien CV, ou d&eacute;crivez-vous.</p></div>
     <div class="step"><div class="n">2</div><h3>Nous b&acirc;tissons</h3><p>Votre plan se construit &agrave; partir de vos r&eacute;ponses et des vraies offres du march&eacute;.</p></div>
-    <div class="step"><div class="n">3</div><h3>Vous recevez</h3><p>Votre dossier complet arrive par email, en Word et en PDF.</p></div>
+    <div class="step"><div class="n">3</div><h3>Vous recevez</h3><p>Votre plan complet arrive par e-mail, dans le corps du message.</p></div>
   </div>
 </div>
 
-<!-- 6. LES TROIS FORMULES -->
+<!-- 6. LA FORMULE -->
 <div class="wrap" style="padding-top:0;">
-  <p class="eyebrow">Nos formules</p>
-  <h2 class="section">Trois fa&ccedil;ons d'avancer</h2>
-  <p class="lead">&laquo; Le Plan &raquo; vous donne votre cap, en une fois. Les deux abonnements le reprennent en entier et vont plus loin, pour qui postule chaque semaine.</p>
+  <p class="eyebrow">Notre formule</p>
+  <h2 class="section">Votre plan, en une fois</h2>
+  <p class="lead">&laquo; Le Plan &raquo; vous donne votre cap, en une fois : un seul paiement, sans abonnement.</p>
 
   <div class="pricing">
 
@@ -261,43 +261,11 @@
         <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Profil LinkedIn (titre + r&eacute;sum&eacute;)</li>
         <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Plan d'action sur 30 jours</li>
         <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>De vraies offres pour se lancer</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Livraison Word modifiable + PDF</li>
-        <li class="off"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M4 8h8" stroke="#9aa6a6" stroke-width="2" stroke-linecap="round"/></svg>Pas de CV adapt&eacute; offre par offre</li>
+        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Livraison par e-mail, &agrave; copier dans votre traitement de texte</li>
       </ul>
       <a class="pcta" href="formulaire.html">Choisir Le Plan</a>
     </div>
 
-    <div class="pcard feat">
-      <div class="pbadge">Le plus populaire</div>
-      <div class="pn">Candidature active</div>
-      <div class="pt">Vous postulez &agrave; beaucoup d'offres et voulez un CV adapt&eacute; &agrave; chacune.</div>
-      <div class="pp"><span class="a">17&euro;</span><span class="un">/ mois</span></div>
-      <div class="pnote">Sans engagement</div>
-      <ul>
-        <li class="hi"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout &laquo; Le Plan &raquo;, inclus</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>CV + lettre sur-mesure pour chaque offre (jusqu'&agrave; 10/mois)</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Adapt&eacute;s en temps r&eacute;el au march&eacute;</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Livraison Word + PDF &agrave; chaque fois</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>R&eacute;siliable &agrave; tout moment</li>
-        <li class="off"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M4 8h8" stroke="#9aa6a6" stroke-width="2" stroke-linecap="round"/></svg>Pr&eacute;paration entretien non incluse</li>
-      </ul>
-      <a class="pcta solid" href="https://buy.stripe.com/6oU8wH4cy0zQarq1LkdZ608">S'abonner</a>
-    </div>
-
-    <div class="pcard">
-      <div class="pn">Cap Pro</div>
-      <div class="pt">Vous voulez mettre toutes les chances de votre c&ocirc;t&eacute;, sans limite.</div>
-      <div class="pp"><span class="a">39&euro;</span><span class="un">/ mois</span></div>
-      <div class="pnote">Sans engagement</div>
-      <ul>
-        <li class="hi"><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout &laquo; Candidature active &raquo;, en illimit&eacute;</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Pr&eacute;paration aux entretiens</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Optimisation LinkedIn compl&egrave;te</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Votre argumentaire de reconversion</li>
-        <li><svg width="15" height="15" viewBox="0 0 16 16"><path d="M3 8.5l3 3 7-7.5" stroke="#BD8438" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Support prioritaire</li>
-      </ul>
-      <a class="pcta" href="https://buy.stripe.com/9B63cn24qaaq432ey6dZ609">Choisir Cap Pro</a>
-    </div>
 
   </div>
 </div>
