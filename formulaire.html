@@ -173,6 +173,12 @@ async function continuer(){
 const LIBELLES = { prenom:"prenom", email:"adresse email", metier:"metier vise", lieu:"ville", contrat:"type de contrat", situation:"situation", parcours:"parcours" };
 
 function messageErreur(statut, d){
+  if(statut === 429){
+    return "Trop de demandes depuis votre connexion. Merci de reessayer dans quelques minutes.";
+  }
+  if(statut === 503){
+    return "Le service a atteint sa limite quotidienne de demandes. Merci de reessayer demain.";
+  }
   if(statut === 413){
     return "Votre texte est trop long. Merci de le raccourcir (12 000 caracteres au maximum pour le parcours).";
   }
