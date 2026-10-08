@@ -65,24 +65,24 @@
   <p class="eyebrow">Le Plan &middot; 29 &euro;</p>
   <h1>Parlez-nous de votre projet</h1>
   <p class="sub">Quelques minutes suffisent. &Agrave; partir de vos r&eacute;ponses et des vraies offres du march&eacute;, nous b&acirc;tissons votre plan de reconversion sur-mesure.</p>
-  <p class="rgpd">Votre CV n'est jamais conserv&eacute; apr&egrave;s g&eacute;n&eacute;ration.</p>
+  <p class="rgpd">Vos informations sont supprim&eacute;es de nos syst&egrave;mes d&egrave;s l'envoi de votre plan, et au plus tard 24 heures apr&egrave;s. <a href="mentions.html#donnees">D&eacute;tails</a></p>
 
   <div class="card">
     <h2>Vous</h2>
     <p class="hint">Pour vous adresser votre plan personnalis&eacute;.</p>
     <label>Pr&eacute;nom</label>
-    <input id="prenom" type="text" placeholder="Sophie">
+    <input id="prenom" type="text" maxlength="60" placeholder="Sophie">
     <label>Email <span class="opt">(le plan y sera envoy&eacute;)</span></label>
-    <input id="email" type="email" placeholder="vous@exemple.fr">
+    <input id="email" type="email" maxlength="120" placeholder="vous@exemple.fr">
   </div>
 
   <div class="card">
     <h2>Votre projet</h2>
     <p class="hint">Le m&eacute;tier que vous visez, et o&ugrave; vous le cherchez.</p>
     <label>M&eacute;tier vis&eacute;</label>
-    <input id="metier" type="text" placeholder="Charg&eacute; de ressources humaines">
-    <label>Ville <span class="opt">(pour trouver de vraies offres locales)</span></label>
-    <input id="lieu" type="text" placeholder="Nantes">
+    <input id="metier" type="text" maxlength="100" placeholder="Charg&eacute; de ressources humaines">
+    <label>Ville <span class="opt">(facultatif)</span></label>
+    <input id="lieu" type="text" maxlength="100" placeholder="Nantes">
     <label>Type de contrat <span class="opt">(facultatif)</span></label>
     <select id="contrat">
       <option value="">Peu importe</option>
@@ -92,17 +92,15 @@
       <option value="Int&eacute;rim">Int&eacute;rim</option>
     </select>
     <label>Votre situation, en quelques mots</label>
-    <textarea id="situation" placeholder="Ex. : Apr&egrave;s 15 ans en grande distribution, je souhaite me reconvertir dans les ressources humaines."></textarea>
+    <textarea id="situation" maxlength="1500" placeholder="Ex. : Apr&egrave;s 15 ans en grande distribution, je souhaite me reconvertir dans les ressources humaines."></textarea>
   </div>
 
   <div class="card">
     <h2>Votre parcours</h2>
-    <p class="hint">Deux options : d&eacute;posez votre ancien CV, ou d&eacute;crivez votre parcours. Au choix.</p>
-    <label>D&eacute;poser mon ancien CV <span class="opt">(PDF ou Word &mdash; facultatif)</span></label>
-    <input id="cv" type="file" accept=".pdf,.doc,.docx">
-    <p class="file-note">Le contenu est lu pour b&acirc;tir votre plan, puis effac&eacute;. Jamais conserv&eacute;.</p>
-    <label>&hellip; ou d&eacute;crire mon parcours</label>
-    <textarea id="parcours" placeholder="Vos postes, vos missions, vos ann&eacute;es d'exp&eacute;rience&hellip;"></textarea>
+    <p class="hint">Collez le texte de votre ancien CV, ou d&eacute;crivez simplement votre parcours.</p>
+    <label>Mon parcours <span class="opt">(postes, missions, ann&eacute;es d'exp&eacute;rience)</span></label>
+    <textarea id="parcours" maxlength="12000" placeholder="Vos postes, vos missions, vos ann&eacute;es d'exp&eacute;rience&hellip; Vous pouvez coller ici le texte de votre CV."></textarea>
+    <p class="file-note">12&nbsp;000 caract&egrave;res au maximum. Ce texte est transmis &agrave; notre prestataire d'intelligence artificielle pour r&eacute;diger votre plan (voir les <a href="mentions.html#donnees">mentions l&eacute;gales</a>).</p>
   </div>
 
   <button id="btn" class="submit" onclick="continuer()">Continuer vers le paiement &mdash; 29 &euro;</button>
@@ -148,14 +146,6 @@ async function continuer(){
     parcours: document.getElementById("parcours").value.trim(),
   };
 
-  const fichier = document.getElementById("cv").files[0];
-  if(fichier){
-    try{
-      data.cv_nom = fichier.name;
-      data.cv_base64 = await lireFichier(fichier);
-    }catch(e){}
-  }
-
   btn.disabled = true;
   afficher("attente", "Travail en cours\u2026 Merci de patienter.");
 
@@ -165,9 +155,10 @@ async function continuer(){
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     });
-    const d = await r.json();
-    if(!d.ok || !d.numero){
-      afficher("erreur", "Une erreur est survenue. Merci de reessayer dans un instant.");
+    let d = {};
+    try{ d = await r.json(); }catch(e){}
+    if(!r.ok || !d.ok || !d.numero){
+      afficher("erreur", messageErreur(r.status, d));
       btn.disabled = false;
       return;
     }
@@ -179,13 +170,16 @@ async function continuer(){
   }
 }
 
-function lireFichier(file){
-  return new Promise((resolve, reject)=>{
-    const reader = new FileReader();
-    reader.onload = ()=> resolve(reader.result.split(",")[1]);
-    reader.onerror = ()=> reject(new Error("lecture echouee"));
-    reader.readAsDataURL(file);
-  });
+const LIBELLES = { prenom:"prenom", email:"adresse email", metier:"metier vise", lieu:"ville", contrat:"type de contrat", situation:"situation", parcours:"parcours" };
+
+function messageErreur(statut, d){
+  if(statut === 413){
+    return "Votre texte est trop long. Merci de le raccourcir (12 000 caracteres au maximum pour le parcours).";
+  }
+  if(statut === 400 && d && d.champ && LIBELLES[d.champ]){
+    return "Merci de verifier le champ « " + LIBELLES[d.champ] + " » : il est vide, trop long ou invalide.";
+  }
+  return "Une erreur est survenue. Merci de reessayer dans un instant.";
 }
 </script>
 </body>
