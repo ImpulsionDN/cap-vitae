@@ -1,0 +1,35 @@
+# ============================================================
+# Ce dépôt est PUBLIC (GitHub Pages) : tout fichier ajouté ici est
+# visible par tout le monde. Ce .gitignore empêche d'envoyer par erreur
+# des fichiers qui ne doivent jamais être publiés.
+# ============================================================
+
+# --- Identifiants, mots de passe, clés ---
+*identifiants*
+*credentials*
+.env
+.env.*
+.dev.vars
+*.pem
+*.key
+*.pfx
+*.p12
+
+# --- Copies de sauvegarde et fichiers temporaires ---
+*.bak
+*.tmp
+*~
+
+# --- Workers Cloudflare et leur configuration (hors dépôt, déployés à part) ---
+worker.js
+worker-*.js
+*-worker.js
+wrangler.toml
+wrangler-*.toml
+.wrangler/
+node_modules/
+
+# --- Fichiers système ---
+Thumbs.db
+desktop.ini
+.DS_Store
