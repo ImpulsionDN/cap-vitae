@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#d7b899"/>
+<path d="M150 0 V70" stroke="#d62828" stroke-width="10"/>
+<!-- noeud -->
+<path d="M150 70 C100 35 85 90 140 85 Z" fill="#d62828"/><path d="M150 70 C200 35 215 90 160 85 Z" fill="#d62828"/>
+<circle cx="150" cy="78" r="12" fill="#fb8c00"/>
+<!-- feuilles -->
+<g fill="#7cb342"><ellipse cx="105" cy="140" rx="55" ry="22" transform="rotate(30 105 140)"/><ellipse cx="195" cy="140" rx="55" ry="22" transform="rotate(-30 195 140)"/><ellipse cx="85" cy="210" rx="55" ry="22" transform="rotate(60 85 210)"/><ellipse cx="215" cy="210" rx="55" ry="22" transform="rotate(-60 215 210)"/></g>
+<g fill="#1b5e20"><ellipse cx="150" cy="180" rx="22" ry="70"/><ellipse cx="120" cy="250" rx="45" ry="18" transform="rotate(70 120 250)"/><ellipse cx="180" cy="250" rx="45" ry="18" transform="rotate(-70 180 250)"/></g>
+<!-- baies -->
+<g fill="#ffffff"><circle cx="135" cy="115" r="13"/><circle cx="165" cy="115" r="13"/><circle cx="150" cy="135" r="13"/><circle cx="125" cy="160" r="11"/><circle cx="175" cy="160" r="11"/></g>
+<!-- coeurs -->
+<g fill="#f48fb1"><path d="M45 70 C20 50 25 30 40 32 C45 33 45 38 45 40 C45 38 45 33 50 32 C65 30 70 50 45 70 Z"/><path d="M255 70 C230 50 235 30 250 32 C255 33 255 38 255 40 C255 38 255 33 260 32 C275 30 280 50 255 70 Z"/><path d="M50 300 C25 280 30 260 45 262 C50 263 50 268 50 270 C50 268 50 263 55 262 C70 260 75 280 50 300 Z"/><path d="M250 300 C225 280 230 260 245 262 C250 263 250 268 250 270 C250 268 250 263 255 262 C270 260 275 280 250 300 Z"/></g>
+</svg>

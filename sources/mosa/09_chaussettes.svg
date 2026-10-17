@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#d7b899"/>
+<!-- cheminée -->
+<rect x="10" y="60" width="280" height="40" fill="#6d4c41"/>
+<rect x="25" y="100" width="250" height="220" fill="#d62828"/>
+<rect x="85" y="175" width="130" height="145" rx="10" fill="#212121"/>
+<!-- feu -->
+<path d="M110 320 C100 280 130 270 125 240 C150 260 140 220 160 205 C165 240 190 245 185 275 C200 265 200 300 195 320 Z" fill="#fb8c00"/>
+<path d="M130 320 C125 295 145 285 150 262 C160 285 175 290 170 320 Z" fill="#fdd835"/>
+<rect x="100" y="305" width="100" height="15" rx="6" fill="#6d4c41"/>
+<!-- briques -->
+<g fill="#fb8c00"><rect x="35" y="115" width="40" height="18" rx="2"/><rect x="225" y="115" width="40" height="18" rx="2"/><rect x="35" y="230" width="40" height="18" rx="2"/><rect x="225" y="230" width="40" height="18" rx="2"/><rect x="55" y="270" width="25" height="18" rx="2"/><rect x="220" y="270" width="25" height="18" rx="2"/></g>
+<!-- guirlande -->
+<path d="M10 58 C80 85 220 85 290 58" fill="none" stroke="#1b5e20" stroke-width="12"/>
+<!-- chaussettes -->
+<g><path d="M40 95 H75 V150 C75 170 60 175 45 168 L30 160 C18 152 25 136 40 140 Z" fill="#ffffff"/><rect x="36" y="88" width="43" height="16" rx="4" fill="#1b5e20"/>
+<path d="M135 95 H170 V150 C170 170 155 175 140 168 L125 160 C113 152 120 136 135 140 Z" fill="#1b5e20"/><rect x="131" y="88" width="43" height="16" rx="4" fill="#ffffff"/>
+<path d="M230 95 H265 V150 C265 170 250 175 235 168 L220 160 C208 152 215 136 230 140 Z" fill="#81d4fa"/><rect x="226" y="88" width="43" height="16" rx="4" fill="#ffffff"/></g>
+<g fill="#d62828"><path d="M57 115 L61 124 L70 124 L63 130 L66 139 L57 133 L48 139 L51 130 L44 124 L53 124 Z"/></g>
+<g fill="#fdd835"><circle cx="152" cy="125" r="8"/><circle cx="247" cy="125" r="8"/></g>
+<!-- étoile au mur -->
+<path d="M150 5 L156 20 L172 21 L160 31 L164 47 L150 38 L136 47 L140 31 L128 21 L144 20 Z" fill="#fdd835"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#1a237e"/>
+<g fill="#ffffff"><circle cx="30" cy="40" r="6"/><circle cx="260" cy="30" r="7"/><circle cx="60" cy="110" r="5"/><circle cx="245" cy="120" r="6"/><circle cx="150" cy="18" r="5"/><circle cx="200" cy="60" r="5"/><circle cx="100" cy="50" r="6"/></g>
+<circle cx="250" cy="70" r="28" fill="#fdd835"/><circle cx="262" cy="62" r="24" fill="#1a237e"/>
+<path d="M0 250 C80 230 220 230 300 250 V320 H0 Z" fill="#ffffff"/>
+<circle cx="150" cy="235" r="62" fill="#ffffff"/>
+<circle cx="150" cy="140" r="46" fill="#ffffff"/>
+<!-- chapeau -->
+<rect x="112" y="92" width="76" height="12" rx="3" fill="#212121"/><rect x="124" y="48" width="52" height="48" rx="4" fill="#212121"/><rect x="124" y="80" width="52" height="10" fill="#d62828"/>
+<!-- yeux nez bouche -->
+<circle cx="135" cy="132" r="6" fill="#212121"/><circle cx="165" cy="132" r="6" fill="#212121"/>
+<path d="M150 145 L190 155 L150 158 Z" fill="#fb8c00"/>
+<g fill="#212121"><circle cx="132" cy="165" r="4"/><circle cx="142" cy="170" r="4"/><circle cx="158" cy="170" r="4"/><circle cx="168" cy="165" r="4"/></g>
+<!-- écharpe -->
+<path d="M106 178 C130 195 170 195 194 178 L196 196 C170 210 130 210 104 196 Z" fill="#d62828"/>
+<rect x="165" y="196" width="22" height="50" rx="4" fill="#d62828"/>
+<rect x="165" y="214" width="22" height="9" fill="#ffffff"/>
+<!-- boutons -->
+<g fill="#212121"><circle cx="150" cy="215" r="7"/><circle cx="150" cy="242" r="7"/><circle cx="150" cy="269" r="7"/></g>
+<!-- bras -->
+<g fill="none" stroke="#6d4c41" stroke-width="8" stroke-linecap="round"><path d="M95 215 L45 175 M62 189 L50 165"/><path d="M205 215 L255 175 M238 189 L252 166"/></g>
+<!-- sapins -->
+<path d="M30 260 L5 260 L18 230 L8 230 L30 190 L52 230 L42 230 L55 260 Z" fill="#1b5e20"/>
+<path d="M272 262 L250 262 L262 236 L253 236 L272 202 L291 236 L282 236 L294 262 Z" fill="#1b5e20"/>
+</svg>

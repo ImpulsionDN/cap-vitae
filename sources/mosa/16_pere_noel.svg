@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#7cb342"/>
+<g fill="#ffffff"><circle cx="30" cy="35" r="6"/><circle cx="270" cy="40" r="7"/><circle cx="25" cy="200" r="5"/><circle cx="275" cy="210" r="6"/></g>
+<!-- bonnet -->
+<path d="M70 120 C80 40 200 30 230 110 Z" fill="#d62828"/>
+<path d="M200 60 C240 40 270 70 265 105 L250 100 C252 80 235 68 215 80 Z" fill="#d62828"/>
+<circle cx="260" cy="110" r="20" fill="#ffffff"/>
+<rect x="60" y="110" width="180" height="32" rx="16" fill="#ffffff"/>
+<!-- visage -->
+<ellipse cx="150" cy="175" rx="70" ry="50" fill="#f48fb1"/>
+<g fill="#212121"><circle cx="125" cy="168" r="8"/><circle cx="175" cy="168" r="8"/></g>
+<circle cx="150" cy="190" r="14" fill="#d62828"/>
+<!-- barbe -->
+<path d="M75 185 C60 240 90 300 150 305 C210 300 240 240 225 185 C215 215 195 222 175 210 C165 225 135 225 125 210 C105 222 85 215 75 185 Z" fill="#ffffff"/>
+<path d="M120 205 C130 195 145 200 150 208 C155 200 170 195 180 205 C170 215 155 212 150 208 C145 212 130 215 120 205 Z" fill="#ffffff"/>
+<path d="M135 232 C143 240 157 240 165 232" fill="none" stroke="#d62828" stroke-width="6"/>
+<!-- lunettes -->
+<g fill="none" stroke="#fdd835" stroke-width="5"><circle cx="125" cy="168" r="16"/><circle cx="175" cy="168" r="16"/><path d="M141 168 H159"/></g>
+</svg>

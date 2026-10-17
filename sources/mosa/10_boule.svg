@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#1b5e20"/>
+<g fill="#7cb342"><path d="M0 0 C40 40 60 20 90 0 Z"/><path d="M300 0 C260 40 240 20 210 0 Z"/></g>
+<path d="M150 0 V60" stroke="#fdd835" stroke-width="6"/>
+<rect x="130" y="55" width="40" height="28" rx="4" fill="#fdd835"/>
+<circle cx="150" cy="190" r="115" fill="#d62828"/>
+<!-- bandes -->
+<path d="M38 165 C100 145 200 145 262 165 L265 195 C200 175 100 175 35 195 Z" fill="#ffffff"/>
+<path d="M45 230 C110 250 190 250 255 230 L245 255 C185 272 115 272 55 255 Z" fill="#fdd835"/>
+<!-- flocons sur la boule -->
+<g fill="#ffffff"><path d="M150 95 L156 110 L171 112 L160 122 L163 137 L150 129 L137 137 L140 122 L129 112 L144 110 Z"/><circle cx="90" cy="120" r="9"/><circle cx="210" cy="120" r="9"/><circle cx="105" cy="215" r="8"/><circle cx="195" cy="215" r="8"/><circle cx="150" cy="215" r="10"/></g>
+<g fill="#81d4fa"><circle cx="80" cy="170" r="10"/><circle cx="150" cy="166" r="10"/><circle cx="220" cy="170" r="10"/></g>
+<!-- reflet -->
+<path d="M75 115 C85 95 100 85 115 80" fill="none" stroke="#f48fb1" stroke-width="10" stroke-linecap="round"/>
+<!-- houx -->
+<g fill="#7cb342"><path d="M30 300 C10 280 40 270 60 285 C75 260 95 280 80 300 Z"/><path d="M270 300 C290 280 260 270 240 285 C225 260 205 280 220 300 Z"/></g>
+<g fill="#d62828"><circle cx="60" cy="305" r="8"/><circle cx="240" cy="305" r="8"/></g>
+</svg>

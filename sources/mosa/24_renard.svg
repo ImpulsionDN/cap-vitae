@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#81d4fa"/>
+<g fill="#ffffff"><circle cx="30" cy="30" r="6"/><circle cx="270" cy="35" r="7"/><circle cx="200" cy="60" r="5"/><circle cx="70" cy="90" r="5"/></g>
+<path d="M0 230 C100 210 200 215 300 235 V320 H0 Z" fill="#ffffff"/>
+<!-- queue -->
+<path d="M200 260 C270 260 290 200 260 160 C250 190 230 220 195 225 Z" fill="#fb8c00"/>
+<path d="M262 165 C285 190 280 225 258 245 C270 215 268 190 255 175 Z" fill="#ffffff"/>
+<!-- corps -->
+<ellipse cx="150" cy="235" rx="70" ry="55" fill="#fb8c00"/>
+<ellipse cx="135" cy="245" rx="35" ry="40" fill="#ffffff"/>
+<!-- tête -->
+<path d="M85 90 L100 160 L150 200 L200 160 L215 90 L175 120 H125 Z" fill="#fb8c00"/>
+<path d="M95 100 L108 140 L125 122 Z" fill="#212121"/><path d="M205 100 L192 140 L175 122 Z" fill="#212121"/>
+<path d="M100 160 L150 200 L200 160 C180 165 165 150 150 160 C135 150 120 165 100 160 Z" fill="#ffffff"/>
+<circle cx="150" cy="195" r="10" fill="#212121"/>
+<g fill="#212121"><ellipse cx="128" cy="145" rx="7" ry="9"/><ellipse cx="172" cy="145" rx="7" ry="9"/></g>
+<!-- pattes -->
+<g fill="#212121"><ellipse cx="115" cy="288" rx="18" ry="10"/><ellipse cx="175" cy="288" rx="18" ry="10"/></g>
+<!-- sapins -->
+<g fill="#1b5e20"><path d="M40 240 L15 240 L28 215 L18 215 L40 175 L62 215 L52 215 L65 240 Z"/><path d="M265 140 L248 140 L257 122 L250 122 L265 95 L280 122 L273 122 L282 140 Z"/></g>
+<!-- écharpe -->
+<path d="M110 185 C130 200 170 200 190 185 L192 198 C170 212 130 212 108 198 Z" fill="#7cb342"/>
+</svg>

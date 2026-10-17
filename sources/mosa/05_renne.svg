@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#81d4fa"/>
+<g fill="#ffffff"><circle cx="30" cy="30" r="6"/><circle cx="270" cy="40" r="7"/><circle cx="40" cy="150" r="5"/><circle cx="265" cy="160" r="6"/><circle cx="25" cy="250" r="6"/><circle cx="280" cy="270" r="5"/></g>
+<!-- bois -->
+<g fill="none" stroke="#6d4c41" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"><path d="M115 95 C100 70 90 50 95 25 M100 60 L70 45 M96 38 L118 20"/><path d="M185 95 C200 70 210 50 205 25 M200 60 L230 45 M204 38 L182 20"/></g>
+<!-- oreilles -->
+<path d="M95 115 C60 105 55 130 92 138 Z" fill="#6d4c41"/><path d="M205 115 C240 105 245 130 208 138 Z" fill="#6d4c41"/>
+<!-- tête -->
+<path d="M150 85 C200 85 215 130 210 170 C205 215 185 250 150 250 C115 250 95 215 90 170 C85 130 100 85 150 85 Z" fill="#fb8c00"/>
+<!-- museau -->
+<ellipse cx="150" cy="215" rx="42" ry="34" fill="#d7b899"/>
+<circle cx="150" cy="192" r="18" fill="#d62828"/>
+<g fill="#212121"><circle cx="125" cy="150" r="9"/><circle cx="175" cy="150" r="9"/></g>
+<g fill="#ffffff"><circle cx="128" cy="147" r="3"/><circle cx="178" cy="147" r="3"/></g>
+<g fill="#f48fb1"><ellipse cx="108" cy="180" rx="11" ry="7"/><ellipse cx="192" cy="180" rx="11" ry="7"/></g>
+<path d="M135 225 C142 235 158 235 165 225" fill="none" stroke="#212121" stroke-width="5"/>
+<!-- écharpe -->
+<path d="M85 250 C120 270 180 270 215 250 L222 280 C180 300 120 300 78 280 Z" fill="#1b5e20"/>
+<rect x="170" y="280" width="26" height="40" rx="4" fill="#1b5e20"/>
+<g fill="#ffffff"><rect x="95" y="262" width="12" height="20"/><rect x="140" y="270" width="12" height="20"/><rect x="185" y="262" width="12" height="20"/></g>
+<!-- grelot -->
+<circle cx="150" cy="300" r="12" fill="#fdd835"/>
+</svg>

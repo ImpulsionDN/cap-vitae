@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#1a237e"/>
+<g fill="#ffffff"><circle cx="30" cy="30" r="5"/><circle cx="150" cy="20" r="5"/><circle cx="270" cy="35" r="6"/><circle cx="90" cy="60" r="4"/><circle cx="220" cy="70" r="4"/></g>
+<rect x="0" y="275" width="300" height="45" fill="#ffffff"/>
+<!-- chalet stand -->
+<path d="M30 130 L150 70 L270 130 Z" fill="#d62828"/>
+<path d="M20 130 L150 62 L280 130 L270 140 L150 78 L30 140 Z" fill="#ffffff"/>
+<rect x="45" y="138" width="210" height="140" fill="#6d4c41"/>
+<rect x="60" y="160" width="180" height="70" fill="#fdd835"/>
+<rect x="45" y="228" width="210" height="20" fill="#d7b899"/>
+<!-- auvent rayé -->
+<g><rect x="45" y="138" width="35" height="22" fill="#d62828"/><rect x="80" y="138" width="35" height="22" fill="#ffffff"/><rect x="115" y="138" width="35" height="22" fill="#d62828"/><rect x="150" y="138" width="35" height="22" fill="#ffffff"/><rect x="185" y="138" width="35" height="22" fill="#d62828"/><rect x="220" y="138" width="35" height="22" fill="#ffffff"/></g>
+<!-- produits -->
+<g fill="#d62828"><circle cx="85" cy="210" r="12"/><circle cx="215" cy="210" r="12"/></g>
+<g fill="#1b5e20"><path d="M150 175 L170 215 H130 Z"/></g>
+<g fill="#fb8c00"><rect x="100" y="190" width="22" height="30" rx="4"/><rect x="178" y="190" width="22" height="30" rx="4"/></g>
+<!-- guirlande -->
+<path d="M20 132 C80 120 220 120 280 132" fill="none" stroke="#1b5e20" stroke-width="6"/>
+<g fill="#fdd835"><circle cx="60" cy="125" r="7"/><circle cx="110" cy="120" r="7"/><circle cx="190" cy="120" r="7"/><circle cx="240" cy="125" r="7"/></g>
+<!-- enseigne -->
+<rect x="110" y="95" width="80" height="26" rx="6" fill="#ffffff"/>
+<path d="M150 99 L155 108 L165 108 L157 114 L160 123 L150 117 L140 123 L143 114 L135 108 L145 108 Z" fill="#d62828" transform="translate(0 -2)"/>
+<!-- sapins -->
+<g fill="#1b5e20"><path d="M20 290 L2 290 L12 268 L5 268 L20 240 L35 268 L28 268 L38 290 Z"/><path d="M280 290 L262 290 L272 268 L265 268 L280 240 L295 268 L288 268 L298 290 Z"/></g>
+</svg>

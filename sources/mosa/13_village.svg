@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#1a237e"/>
+<circle cx="245" cy="55" r="30" fill="#fdd835"/>
+<g fill="#ffffff"><circle cx="30" cy="30" r="5"/><circle cx="90" cy="60" r="4"/><circle cx="150" cy="25" r="5"/><circle cx="190" cy="80" r="4"/><circle cx="40" cy="110" r="4"/><circle cx="280" cy="120" r="5"/></g>
+<!-- collines -->
+<path d="M0 170 C70 140 140 160 180 170 C230 150 270 150 300 165 V320 H0 Z" fill="#ffffff"/>
+<!-- église -->
+<rect x="125" y="150" width="50" height="80" fill="#9e9e9e"/>
+<path d="M120 152 L150 95 L180 152 Z" fill="#d62828"/>
+<rect x="146" y="70" width="8" height="30" fill="#fdd835"/><rect x="138" y="78" width="24" height="7" fill="#fdd835"/>
+<path d="M140 230 V200 C140 185 160 185 160 200 V230 Z" fill="#6d4c41"/>
+<circle cx="150" cy="170" r="9" fill="#fdd835"/>
+<!-- maisons -->
+<rect x="20" y="190" width="80" height="60" fill="#fb8c00"/><path d="M12 195 L60 150 L108 195 Z" fill="#ffffff"/>
+<rect x="35" y="205" width="20" height="20" fill="#fdd835"/><rect x="68" y="215" width="20" height="35" fill="#6d4c41"/>
+<rect x="200" y="185" width="85" height="65" fill="#7cb342"/><path d="M192 190 L242 145 L293 190 Z" fill="#ffffff"/>
+<rect x="215" y="200" width="20" height="20" fill="#fdd835"/><rect x="252" y="200" width="20" height="20" fill="#fdd835"/>
+<!-- route -->
+<path d="M120 320 C130 280 140 255 150 235 C160 255 170 280 180 320 Z" fill="#9e9e9e"/>
+<!-- sapins -->
+<g fill="#1b5e20"><path d="M40 300 L15 300 L28 275 L18 275 L40 240 L62 275 L52 275 L65 300 Z"/><path d="M255 305 L230 305 L243 280 L233 280 L255 245 L277 280 L267 280 L280 305 Z"/><path d="M95 290 L80 290 L88 272 L82 272 L95 250 L108 272 L102 272 L110 290 Z"/><path d="M205 290 L190 290 L198 272 L192 272 L205 250 L218 272 L212 272 L220 290 Z"/></g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#81d4fa"/>
+<g fill="#ffffff"><circle cx="30" cy="40" r="6"/><circle cx="270" cy="35" r="7"/><circle cx="150" cy="25" r="5"/><circle cx="90" cy="70" r="5"/><circle cx="220" cy="80" r="5"/></g>
+<!-- plat -->
+<ellipse cx="150" cy="265" rx="140" ry="35" fill="#ffffff"/>
+<ellipse cx="150" cy="260" rx="125" ry="25" fill="#9e9e9e"/>
+<!-- bûche -->
+<rect x="45" y="150" width="200" height="100" rx="20" fill="#6d4c41"/>
+<ellipse cx="245" cy="200" rx="30" ry="50" fill="#d7b899"/>
+<ellipse cx="245" cy="200" rx="18" ry="32" fill="#6d4c41"/><ellipse cx="245" cy="200" rx="8" ry="14" fill="#d7b899"/>
+<g fill="none" stroke="#d7b899" stroke-width="5"><path d="M60 180 C100 170 140 185 200 175"/><path d="M60 215 C110 205 150 222 205 212"/></g>
+<!-- branche -->
+<rect x="100" y="115" width="40" height="45" rx="10" fill="#6d4c41"/>
+<ellipse cx="120" cy="117" rx="20" ry="9" fill="#d7b899"/>
+<!-- neige sucre -->
+<path d="M50 160 C80 145 120 150 150 152 C190 148 220 150 240 160 L240 170 C220 165 205 175 195 168 C180 178 165 165 150 172 C135 162 120 178 105 168 C90 176 70 165 50 172 Z" fill="#ffffff"/>
+<!-- déco -->
+<g fill="#1b5e20"><path d="M175 145 C155 125 150 150 140 148 C152 160 150 170 168 165 Z"/><path d="M175 145 C195 125 200 150 210 148 C198 160 200 170 182 165 Z"/></g>
+<g fill="#d62828"><circle cx="170" cy="145" r="7"/><circle cx="180" cy="145" r="7"/></g>
+<rect x="75" y="125" width="12" height="35" fill="#fdd835"/><path d="M81 105 C88 115 88 122 81 125 C74 122 74 115 81 105 Z" fill="#fb8c00"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#1a237e"/>
+<g fill="#ffffff"><circle cx="30" cy="30" r="5"/><circle cx="270" cy="25" r="6"/><circle cx="150" cy="18" r="5"/><circle cx="80" cy="60" r="4"/><circle cx="230" cy="70" r="4"/></g>
+<path d="M0 270 C100 255 200 260 300 270 V320 H0 Z" fill="#ffffff"/>
+<!-- maison -->
+<rect x="55" y="150" width="190" height="125" fill="#d7b899"/>
+<path d="M35 158 L150 75 L265 158 Z" fill="#1b5e20"/>
+<path d="M30 160 L150 72 L270 160 L262 168 L150 88 L38 168 Z" fill="#ffffff"/>
+<rect x="130" y="205" width="40" height="70" fill="#d62828"/><circle cx="160" cy="240" r="4" fill="#fdd835"/>
+<g fill="#fdd835"><rect x="75" y="185" width="40" height="40"/><rect x="185" y="185" width="40" height="40"/></g>
+<g fill="#6d4c41"><rect x="93" y="185" width="5" height="40"/><rect x="75" y="203" width="40" height="5"/><rect x="203" y="185" width="5" height="40"/><rect x="185" y="203" width="40" height="5"/></g>
+<!-- guirlande lumineuse sur le toit -->
+<path d="M38 165 L150 85 L262 165" fill="none" stroke="#212121" stroke-width="4"/>
+<g><circle cx="60" cy="150" r="7" fill="#d62828"/><circle cx="85" cy="132" r="7" fill="#fdd835"/><circle cx="110" cy="114" r="7" fill="#7cb342"/><circle cx="135" cy="96" r="7" fill="#81d4fa"/><circle cx="165" cy="96" r="7" fill="#f48fb1"/><circle cx="190" cy="114" r="7" fill="#d62828"/><circle cx="215" cy="132" r="7" fill="#fdd835"/><circle cx="240" cy="150" r="7" fill="#7cb342"/></g>
+<!-- couronne porte -->
+<circle cx="150" cy="190" r="13" fill="#7cb342"/><circle cx="150" cy="190" r="6" fill="#d62828"/>
+<!-- sapins -->
+<g fill="#1b5e20"><path d="M25 285 L5 285 L15 262 L8 262 L25 225 L42 262 L35 262 L45 285 Z"/><path d="M275 285 L255 285 L265 262 L258 262 L275 225 L292 262 L285 262 L295 285 Z"/></g>
+<g fill="#fdd835"><circle cx="25" cy="250" r="5"/><circle cx="275" cy="250" r="5"/></g>
+</svg>

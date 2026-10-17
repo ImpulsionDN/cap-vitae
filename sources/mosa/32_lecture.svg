@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#d7b899"/>
+<!-- fenêtre -->
+<rect x="170" y="25" width="110" height="120" rx="8" fill="#1a237e"/>
+<g fill="#ffffff"><rect x="222" y="25" width="7" height="120"/><rect x="170" y="82" width="110" height="7"/><circle cx="190" cy="45" r="4"/><circle cx="260" cy="110" r="4"/><circle cx="190" cy="120" r="4"/><circle cx="255" cy="50" r="4"/></g>
+<!-- fauteuil -->
+<rect x="20" y="120" width="170" height="140" rx="30" fill="#7cb342"/>
+<rect x="10" y="180" width="45" height="100" rx="18" fill="#1b5e20"/><rect x="155" y="180" width="45" height="100" rx="18" fill="#1b5e20"/>
+<rect x="45" y="200" width="120" height="60" rx="10" fill="#1b5e20"/>
+<!-- plaid -->
+<path d="M50 150 H160 L170 260 H40 Z" fill="#d62828"/>
+<g fill="#ffffff"><rect x="50" y="175" width="115" height="9"/><rect x="47" y="215" width="120" height="9"/><rect x="80" y="150" width="9" height="110"/><rect x="125" y="150" width="9" height="110"/></g>
+<!-- livre -->
+<path d="M70 120 L105 110 L105 150 L70 160 Z" fill="#ffffff"/><path d="M140 120 L105 110 L105 150 L140 160 Z" fill="#ffffff"/>
+<path d="M70 160 L105 150 L140 160 L140 165 L105 155 L70 165 Z" fill="#1a237e"/>
+<!-- table et tasse -->
+<rect x="210" y="210" width="80" height="12" fill="#6d4c41"/><rect x="243" y="222" width="14" height="70" fill="#6d4c41"/><rect x="225" y="290" width="50" height="10" fill="#6d4c41"/>
+<rect x="230" y="175" width="35" height="35" rx="6" fill="#f48fb1"/><path d="M265 182 C280 182 280 202 265 202" fill="none" stroke="#f48fb1" stroke-width="6"/>
+<g fill="none" stroke="#9e9e9e" stroke-width="5" stroke-linecap="round"><path d="M240 168 C234 158 246 152 240 140"/><path d="M255 168 C249 158 261 152 255 140"/></g>
+<!-- tapis -->
+<ellipse cx="110" cy="300" rx="100" ry="16" fill="#fdd835"/>
+<!-- guirlande -->
+<path d="M0 20 C50 40 110 40 160 20" fill="none" stroke="#1b5e20" stroke-width="7"/>
+<g fill="#fdd835"><circle cx="35" cy="32" r="7"/><circle cx="80" cy="37" r="7"/><circle cx="125" cy="32" r="7"/></g>
+</svg>

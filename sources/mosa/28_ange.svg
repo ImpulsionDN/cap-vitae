@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#81d4fa"/>
+<g fill="#ffffff"><circle cx="30" cy="40" r="6"/><circle cx="270" cy="35" r="7"/><circle cx="40" cy="270" r="6"/><circle cx="265" cy="280" r="6"/></g>
+<!-- ailes -->
+<path d="M140 150 C80 90 30 110 40 170 C50 220 100 220 140 190 Z" fill="#ffffff"/>
+<path d="M160 150 C220 90 270 110 260 170 C250 220 200 220 160 190 Z" fill="#ffffff"/>
+<!-- robe -->
+<path d="M150 150 L80 300 H220 Z" fill="#f48fb1"/>
+<rect x="85" y="280" width="130" height="20" fill="#fdd835"/>
+<!-- bras -->
+<ellipse cx="150" cy="200" rx="40" ry="14" fill="#f48fb1"/>
+<path d="M150 185 L157 200 L172 201 L160 211 L164 226 L150 218 L136 226 L140 211 L128 201 L143 200 Z" fill="#fdd835"/>
+<!-- tête -->
+<circle cx="150" cy="120" r="35" fill="#d7b899"/>
+<path d="M112 115 C112 75 188 75 188 115 C180 100 165 95 150 98 C135 95 120 100 112 115 Z" fill="#fb8c00"/>
+<g fill="#212121"><circle cx="138" cy="122" r="5"/><circle cx="162" cy="122" r="5"/></g>
+<path d="M140 137 C146 143 154 143 160 137" fill="none" stroke="#212121" stroke-width="4"/>
+<!-- auréole -->
+<ellipse cx="150" cy="70" rx="38" ry="10" fill="none" stroke="#fdd835" stroke-width="8"/>
+<!-- nuage -->
+<path d="M50 315 C40 285 80 280 90 295 C100 270 140 275 150 295 C160 275 200 270 210 295 C220 280 260 285 250 315 Z" fill="#ffffff"/>
+</svg>

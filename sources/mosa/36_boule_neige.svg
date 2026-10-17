@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#f48fb1"/>
+<g fill="#ffffff"><circle cx="30" cy="30" r="7"/><circle cx="270" cy="40" r="6"/><circle cx="25" cy="200" r="6"/><circle cx="275" cy="210" r="7"/></g>
+<!-- globe -->
+<circle cx="150" cy="140" r="115" fill="#81d4fa"/>
+<g fill="#ffffff"><circle cx="90" cy="80" r="6"/><circle cx="140" cy="55" r="5"/><circle cx="200" cy="75" r="6"/><circle cx="220" cy="130" r="5"/><circle cx="75" cy="140" r="5"/><circle cx="170" cy="110" r="4"/></g>
+<path d="M45 175 C90 160 210 160 255 175 C250 215 200 255 150 255 C100 255 50 215 45 175 Z" fill="#ffffff"/>
+<!-- maisonnette -->
+<rect x="120" y="140" width="60" height="45" fill="#fb8c00"/><path d="M110 145 L150 105 L190 145 Z" fill="#d62828"/>
+<rect x="143" y="160" width="15" height="25" fill="#6d4c41"/><rect x="125" y="150" width="13" height="13" fill="#fdd835"/><rect x="162" y="150" width="13" height="13" fill="#fdd835"/>
+<!-- sapins -->
+<g fill="#1b5e20"><path d="M85 190 L68 190 L76 172 L70 172 L85 145 L100 172 L94 172 L102 190 Z"/><path d="M215 190 L198 190 L206 172 L200 172 L215 145 L230 172 L224 172 L232 190 Z"/></g>
+<!-- reflet -->
+<path d="M70 90 C80 65 100 50 120 45" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+<!-- socle -->
+<path d="M60 240 H240 L260 300 H40 Z" fill="#6d4c41"/>
+<rect x="30" y="295" width="240" height="20" rx="6" fill="#d7b899"/>
+<rect x="80" y="258" width="140" height="22" rx="6" fill="#fdd835"/>
+</svg>

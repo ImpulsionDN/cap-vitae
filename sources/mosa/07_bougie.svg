@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#1a237e"/>
+<!-- halo -->
+<circle cx="150" cy="80" r="70" fill="#fb8c00"/><circle cx="150" cy="80" r="45" fill="#fdd835"/>
+<!-- flamme -->
+<path d="M150 40 C170 70 172 95 150 110 C128 95 130 70 150 40 Z" fill="#ffffff"/>
+<rect x="146" y="108" width="8" height="14" fill="#212121"/>
+<!-- bougie -->
+<rect x="110" y="120" width="80" height="140" rx="8" fill="#d62828"/>
+<path d="M110 128 C120 150 130 150 135 135 C140 165 150 165 155 130 C162 150 175 150 190 128 V120 H110 Z" fill="#ffffff"/>
+<!-- bougeoir -->
+<ellipse cx="150" cy="262" rx="95" ry="22" fill="#fdd835"/>
+<rect x="60" y="262" width="180" height="20" fill="#fdd835"/>
+<ellipse cx="150" cy="282" rx="90" ry="14" fill="#fb8c00"/>
+<!-- houx -->
+<g fill="#1b5e20"><path d="M60 250 C30 230 20 260 5 255 C20 270 15 290 40 290 C55 292 50 275 70 270 Z"/><path d="M240 250 C270 230 280 260 295 255 C280 270 285 290 260 290 C245 292 250 275 230 270 Z"/><path d="M100 275 C85 300 60 295 50 310 C75 315 95 310 115 290 Z"/><path d="M200 275 C215 300 240 295 250 310 C225 315 205 310 185 290 Z"/></g>
+<g fill="#d62828"><circle cx="75" cy="285" r="9"/><circle cx="88" cy="298" r="9"/><circle cx="225" cy="285" r="9"/><circle cx="212" cy="298" r="9"/></g>
+<!-- étoiles -->
+<g fill="#fdd835"><path d="M40 40 L45 52 L58 53 L48 61 L51 74 L40 67 L29 74 L32 61 L22 53 L35 52 Z"/><path d="M255 150 L260 162 L273 163 L263 171 L266 184 L255 177 L244 184 L247 171 L237 163 L250 162 Z"/></g>
+<g fill="#ffffff"><circle cx="250" cy="40" r="5"/><circle cx="40" cy="160" r="5"/><circle cx="270" cy="230" r="4"/><circle cx="30" cy="220" r="4"/></g>
+</svg>

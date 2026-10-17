@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#1a237e"/>
+<circle cx="240" cy="60" r="35" fill="#fdd835"/>
+<g fill="#ffffff"><circle cx="40" cy="40" r="5"/><circle cx="120" cy="25" r="4"/><circle cx="30" cy="140" r="5"/><circle cx="280" cy="150" r="4"/></g>
+<!-- branche -->
+<path d="M0 255 C100 240 200 250 300 235 V265 C200 280 100 270 0 285 Z" fill="#6d4c41"/>
+<path d="M0 248 C100 233 200 243 300 228 V240 C200 255 100 245 0 260 Z" fill="#ffffff"/>
+<!-- hibou -->
+<ellipse cx="150" cy="180" rx="70" ry="80" fill="#fb8c00"/>
+<path d="M95 115 L85 75 L120 100 Z" fill="#fb8c00"/><path d="M205 115 L215 75 L180 100 Z" fill="#fb8c00"/>
+<ellipse cx="150" cy="200" rx="45" ry="52" fill="#d7b899"/>
+<g fill="#ffffff"><circle cx="122" cy="140" r="26"/><circle cx="178" cy="140" r="26"/></g>
+<g fill="#212121"><circle cx="122" cy="142" r="12"/><circle cx="178" cy="142" r="12"/></g>
+<path d="M142 160 H158 L150 175 Z" fill="#fdd835"/>
+<g fill="#fb8c00"><path d="M130 200 C140 210 160 210 170 200 C160 205 140 205 130 200 Z"/></g>
+<g fill="none" stroke="#6d4c41" stroke-width="4"><path d="M125 195 C135 205 145 205 150 197 C155 205 165 205 175 195"/><path d="M125 220 C135 230 145 230 150 222 C155 230 165 230 175 220"/></g>
+<!-- ailes -->
+<path d="M80 165 C55 200 65 240 90 248 C95 220 92 190 90 170 Z" fill="#6d4c41"/>
+<path d="M220 165 C245 200 235 240 210 248 C205 220 208 190 210 170 Z" fill="#6d4c41"/>
+<!-- écharpe -->
+<path d="M90 172 C120 185 180 185 210 172 L208 188 C180 200 120 200 92 188 Z" fill="#d62828"/>
+<g fill="#fdd835"><ellipse cx="130" cy="252" rx="14" ry="8"/><ellipse cx="170" cy="252" rx="14" ry="8"/></g>
+</svg>

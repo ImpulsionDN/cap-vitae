@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#1a237e"/>
+<g fill="#ffffff"><circle cx="30" cy="40" r="6"/><circle cx="270" cy="30" r="7"/><circle cx="150" cy="20" r="5"/><circle cx="60" cy="150" r="5"/><circle cx="250" cy="150" r="5"/></g>
+<!-- lacet suspendu -->
+<path d="M150 0 L110 70 M150 0 L190 70" stroke="#d62828" stroke-width="6"/>
+<!-- patin gauche -->
+<path d="M70 70 H130 V190 L165 205 C180 212 175 235 160 235 H70 Z" fill="#ffffff"/>
+<rect x="68" y="66" width="64" height="20" rx="6" fill="#d62828"/>
+<g fill="#d62828"><circle cx="118" cy="110" r="5"/><circle cx="118" cy="135" r="5"/><circle cx="118" cy="160" r="5"/></g>
+<path d="M65 255 H170 C180 255 182 245 176 240" fill="none" stroke="#9e9e9e" stroke-width="8" stroke-linecap="round"/>
+<rect x="85" y="235" width="8" height="20" fill="#9e9e9e"/><rect x="145" y="235" width="8" height="20" fill="#9e9e9e"/>
+<!-- patin droit -->
+<path d="M170 95 H230 V215 L265 230 C280 237 275 260 260 260 H170 Z" fill="#f48fb1"/>
+<rect x="168" y="91" width="64" height="20" rx="6" fill="#ffffff"/>
+<g fill="#ffffff"><circle cx="218" cy="135" r="5"/><circle cx="218" cy="160" r="5"/><circle cx="218" cy="185" r="5"/></g>
+<path d="M165 280 H270 C280 280 282 270 276 265" fill="none" stroke="#9e9e9e" stroke-width="8" stroke-linecap="round"/>
+<rect x="185" y="260" width="8" height="20" fill="#9e9e9e"/><rect x="245" y="260" width="8" height="20" fill="#9e9e9e"/>
+<!-- glace -->
+<path d="M0 295 H300 V320 H0 Z" fill="#81d4fa"/>
+<!-- flocons -->
+<g fill="#fdd835"><path d="M40 210 L46 224 L61 225 L49 234 L53 249 L40 240 L27 249 L31 234 L19 225 L34 224 Z"/><path d="M265 80 L270 92 L283 93 L273 101 L276 114 L265 106 L254 114 L257 101 L247 93 L260 92 Z"/></g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#1a237e"/>
+<!-- aurore -->
+<path d="M0 90 C80 50 160 120 300 60 V100 C170 160 80 90 0 130 Z" fill="#7cb342"/>
+<path d="M0 130 C80 90 170 160 300 100 V125 C170 185 80 115 0 155 Z" fill="#81d4fa"/>
+<g fill="#ffffff"><circle cx="30" cy="30" r="5"/><circle cx="90" cy="20" r="4"/><circle cx="160" cy="35" r="5"/><circle cx="230" cy="20" r="4"/><circle cx="275" cy="40" r="5"/></g>
+<path d="M245 10 L250 22 L263 23 L253 31 L256 44 L245 37 L234 44 L237 31 L227 23 L240 22 Z" fill="#fdd835"/>
+<!-- neige -->
+<path d="M0 255 C80 235 220 240 300 255 V320 H0 Z" fill="#ffffff"/>
+<!-- sapins -->
+<g fill="#1b5e20"><path d="M60 260 L15 260 L38 215 L22 215 L60 140 L98 215 L82 215 L105 260 Z"/><path d="M240 265 L195 265 L218 220 L202 220 L240 145 L278 220 L262 220 L285 265 Z"/><path d="M150 270 L100 270 L125 220 L108 220 L150 130 L192 220 L175 220 L200 270 Z"/></g>
+<g fill="#ffffff"><path d="M60 140 L74 168 L60 162 L46 168 Z"/><path d="M240 145 L254 173 L240 167 L226 173 Z"/><path d="M150 130 L166 162 L150 155 L134 162 Z"/></g>
+<g fill="#6d4c41"><rect x="54" y="258" width="12" height="15"/><rect x="144" y="268" width="12" height="15"/><rect x="234" y="263" width="12" height="15"/></g>
+<!-- cerf -->
+<g fill="#6d4c41"><ellipse cx="90" cy="290" rx="28" ry="14"/><rect x="72" y="292" width="7" height="22"/><rect x="100" y="292" width="7" height="22"/><path d="M110 285 L125 262 L132 268 L118 292 Z"/><circle cx="128" cy="262" r="9"/></g>
+<g fill="none" stroke="#6d4c41" stroke-width="4"><path d="M124 255 L118 238 M120 245 L110 242 M132 255 L138 238 M136 245 L146 242"/></g>
+</svg>

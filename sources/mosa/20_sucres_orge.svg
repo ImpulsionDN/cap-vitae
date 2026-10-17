@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#1b5e20"/>
+<g fill="#7cb342"><circle cx="30" cy="30" r="8"/><circle cx="270" cy="40" r="9"/><circle cx="40" cy="290" r="8"/><circle cx="270" cy="285" r="9"/><circle cx="150" cy="20" r="6"/></g>
+<!-- deux grands sucres d'orge croisés -->
+<path d="M95 300 V120 C95 65 165 65 165 120" fill="none" stroke="#ffffff" stroke-width="34"/>
+<path d="M205 300 V120 C205 65 135 65 135 120" fill="none" stroke="#ffffff" stroke-width="34" transform="translate(0 10)"/>
+<g fill="#d62828"><rect x="78" y="140" width="34" height="22"/><rect x="78" y="190" width="34" height="22"/><rect x="78" y="240" width="34" height="22"/><rect x="188" y="150" width="34" height="22"/><rect x="188" y="200" width="34" height="22"/><rect x="188" y="250" width="34" height="22"/></g>
+<!-- noeud -->
+<path d="M150 210 C100 175 95 230 145 222 Z" fill="#d62828"/><path d="M150 210 C200 175 205 230 155 222 Z" fill="#d62828"/>
+<path d="M145 220 L120 270 L135 268 L150 228 Z" fill="#d62828"/><path d="M155 220 L180 270 L165 268 L150 228 Z" fill="#d62828"/>
+<circle cx="150" cy="215" r="13" fill="#fdd835"/>
+<!-- houx -->
+<g fill="#7cb342"><path d="M150 60 C120 40 110 70 95 65 C110 80 105 95 130 92 C145 92 140 80 150 75 Z"/><path d="M150 60 C180 40 190 70 205 65 C190 80 195 95 170 92 C155 92 160 80 150 75 Z"/></g>
+<g fill="#d62828"><circle cx="143" cy="70" r="8"/><circle cx="157" cy="70" r="8"/></g>
+</svg>

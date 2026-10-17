@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#d7b899"/>
+<rect x="0" y="275" width="300" height="45" fill="#6d4c41"/>
+<!-- fenêtre -->
+<rect x="15" y="30" width="70" height="90" rx="6" fill="#1a237e"/>
+<g fill="#ffffff"><rect x="47" y="30" width="6" height="90"/><rect x="15" y="72" width="70" height="6"/><circle cx="30" cy="48" r="4"/><circle cx="70" cy="95" r="4"/><circle cx="28" cy="100" r="3"/></g>
+<!-- chaussette -->
+<path d="M235 60 H265 V120 C265 140 250 150 232 145 L222 140 C210 134 214 118 228 118 H235 Z" fill="#d62828"/>
+<rect x="231" y="52" width="38" height="16" rx="4" fill="#ffffff"/>
+<!-- sapin -->
+<path d="M150 40 L95 125 H120 L80 190 H110 L60 255 H240 L190 190 H220 L180 125 H205 Z" fill="#1b5e20"/>
+<rect x="135" y="255" width="30" height="22" fill="#6d4c41"/>
+<!-- guirlandes -->
+<g fill="none" stroke="#fdd835" stroke-width="7"><path d="M112 112 C135 130 165 130 190 108"/><path d="M95 178 C130 200 170 200 205 175"/><path d="M78 240 C125 262 175 262 222 238"/></g>
+<!-- boules -->
+<g><circle cx="135" cy="90" r="8" fill="#d62828"/><circle cx="170" cy="150" r="9" fill="#81d4fa"/><circle cx="120" cy="155" r="9" fill="#f48fb1"/><circle cx="185" cy="215" r="10" fill="#d62828"/><circle cx="105" cy="222" r="10" fill="#81d4fa"/><circle cx="150" cy="200" r="8" fill="#fdd835"/></g>
+<!-- étoile -->
+<path d="M150 8 L158 28 L180 29 L163 42 L169 63 L150 51 L131 63 L137 42 L120 29 L142 28 Z" fill="#fdd835"/>
+<!-- cadeaux -->
+<rect x="25" y="230" width="60" height="50" fill="#d62828"/><rect x="50" y="230" width="10" height="50" fill="#fdd835"/><rect x="25" y="248" width="60" height="9" fill="#fdd835"/>
+<path d="M55 230 C40 210 30 222 50 230 Z M55 230 C70 210 80 222 60 230 Z" fill="#fdd835"/>
+<rect x="215" y="240" width="65" height="40" fill="#7cb342"/><rect x="242" y="240" width="10" height="40" fill="#d62828"/><rect x="215" y="255" width="65" height="9" fill="#d62828"/>
+<rect x="95" y="262" width="45" height="22" fill="#f48fb1"/><rect x="113" y="262" width="9" height="22" fill="#ffffff"/>
+</svg>

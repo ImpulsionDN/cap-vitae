@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<rect width="300" height="320" fill="#81d4fa"/>
+<g fill="#ffffff"><circle cx="30" cy="40" r="6"/><circle cx="270" cy="35" r="7"/><circle cx="50" cy="140" r="5"/><circle cx="255" cy="130" r="6"/><circle cx="150" cy="20" r="5"/></g>
+<!-- banquise -->
+<path d="M0 260 L60 250 L120 262 L190 248 L300 258 V320 H0 Z" fill="#ffffff"/>
+<!-- corps -->
+<ellipse cx="150" cy="190" rx="78" ry="95" fill="#212121"/>
+<ellipse cx="150" cy="205" rx="55" ry="75" fill="#ffffff"/>
+<!-- tête -->
+<circle cx="150" cy="105" r="58" fill="#212121"/>
+<path d="M150 80 C185 80 190 120 175 140 C165 150 135 150 125 140 C110 120 115 80 150 80 Z" fill="#ffffff"/>
+<g fill="#212121"><circle cx="135" cy="110" r="8"/><circle cx="165" cy="110" r="8"/></g>
+<path d="M138 125 H162 L150 140 Z" fill="#fb8c00"/>
+<g fill="#f48fb1"><circle cx="122" cy="130" r="7"/><circle cx="178" cy="130" r="7"/></g>
+<!-- bonnet -->
+<path d="M95 85 C100 30 200 30 205 85 Z" fill="#1b5e20"/>
+<rect x="90" y="78" width="120" height="18" rx="9" fill="#7cb342"/>
+<circle cx="150" cy="35" r="16" fill="#fdd835"/>
+<!-- écharpe -->
+<path d="M95 150 C130 168 170 168 205 150 L208 172 C170 190 130 190 92 172 Z" fill="#d62828"/>
+<rect x="170" y="172" width="24" height="55" rx="4" fill="#d62828"/>
+<!-- ailes -->
+<path d="M75 170 C45 200 50 240 70 250 C80 230 85 205 85 185 Z" fill="#212121"/>
+<path d="M225 170 C255 200 250 240 230 250 C220 230 215 205 215 185 Z" fill="#212121"/>
+<!-- pieds -->
+<g fill="#fb8c00"><ellipse cx="120" cy="285" rx="25" ry="10"/><ellipse cx="180" cy="285" rx="25" ry="10"/></g>
+<!-- cadeau -->
+<rect x="20" y="220" width="45" height="45" fill="#f48fb1"/><rect x="38" y="220" width="9" height="45" fill="#ffffff"/>
+</svg>
