@@ -1,0 +1,4 @@
+sources/cache/
+sources/pins/
+sources/*.pdf
+__pycache__/

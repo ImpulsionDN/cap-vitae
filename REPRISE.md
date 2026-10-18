@@ -6,9 +6,10 @@ Mémo pour la session Claude qui reprend la gestion depuis l'ordinateur de Denis
 - Coloriages mystères : Noël cosy (adultes), 90 p., 9,99 €, ASIN B0HN4P82LY : https://www.amazon.fr/dp/B0HN4P82LY
 - Coloriages magiques de Noël (enfants dès 6 ans), 90 p., 9,99 €, ASIN B0HN4PP78Z : https://www.amazon.fr/dp/B0HN4PP78Z
 
-## À publier sur KDP (bloqué par la limite hebdomadaire jusqu'au dimanche 18/10 2 h)
-- Mandalas de Noël (ados et adultes), 86 p. Fichiers : livres/Mandalas_Noel_interieur.pdf + livres/Mandalas_Noel_couverture.pdf
-- Fiche complète : livres/Fiche_KDP_Mandalas_Noel.txt (site principal Amazon.fr AVANT les catégories ; catégories Amazon.fr : Loisirs créatifs, décoration et maison > Art et création > Coloriage pour adultes > Mandalas et motifs géométriques ; + Art et création > Saisonnier ; + Art et création > Journaux d'activités ; 9,99 € ; papier blanc ; 8,5 x 11 ; sans fond perdu ; brillant ; IA : Oui)
+## Soumis à KDP le 18/10/2026 (en cours d'examen, jusqu'à 72 h)
+- Mandalas de Noël (ados et adultes), 86 p., 9,99 €, ISBN 9798163293605, ID KDP MP45YVSJAP2. ASIN à relever une fois en ligne.
+- Fiche : livres/Fiche_KDP_Mandalas_Noel.txt. Catégories retenues : Art et création > Saisonnier ; Art et création > Journaux d'activités ; Coloriage pour adultes > Mandalas et motifs géométriques. Redevance 3,51 €.
+- Astuce KDP : si la page de création s'ouvre avec des paramètres openid dans l'URL (après reconnexion), les menus de catégories ne fonctionnent pas. Enregistrer en brouillon puis recharger l'URL propre.
 
 ## Pinterest
 - Compte pro associé « Studio Impulsion » (pinterest.com/studioimpulsion), tableau public « Coloriages de Noël ».
