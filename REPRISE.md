@@ -15,7 +15,9 @@ Mémo pour la session Claude qui reprend la gestion depuis l'ordinateur de Denis
 - Compte pro associé « Studio Impulsion » (pinterest.com/studioimpulsion), tableau public « Coloriages de Noël ».
 - Série 1 importée le 17/10 par CSV (16 épingles, 1/jour à 19 h, du 18/10 au 02/11).
 - Images hébergées : branche `pinterest-assets` du dépôt ImpulsionDN/cap-vitae (URL raw.githubusercontent.com/ImpulsionDN/cap-vitae/pinterest-assets/...).
-- À faire avant le 02/11 : série 2 (mandalas + rappels, jusqu'au 20/12), même méthode (images sur la branche, CSV, import via Paramètres > Importer du contenu > Épingles en masse).
+- Série 2 importée le 18/10 (48 épingles, 1/jour à 19 h, du 03/11 au 20/12) : 24 nouvelles images (branche pinterest-assets, dossier coloriages-noel-2) + 24 rappels de décembre sur des images existantes. CSV : pinterest/Import_Pinterest_Coloriages_Noel_serie2.csv, générateur sources/promo_pins2.py.
+- Astuce import : la page Pinterest bloque fetch ; construire le CSV dans la page et le déposer par un événement drop sur la zone « Glissez votre fichier ».
+- À faire : épingles Mandalas de Noël dès que l'ASIN est connu.
 
 ## Préférences de Denis
 Direct et franc, une action à la fois, instructions prêtes à copier, pas de tirets cadratins, pas de « satisfait ou remboursé ». Il veut que Claude gère tout lui-même.
