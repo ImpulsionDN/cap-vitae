@@ -16,6 +16,7 @@ Mémo pour la session Claude qui reprend la gestion depuis l'ordinateur de Denis
 - Série 1 importée le 17/10 par CSV (16 épingles, 1/jour à 19 h, du 18/10 au 02/11).
 - Images hébergées : branche `pinterest-assets` du dépôt ImpulsionDN/cap-vitae (URL raw.githubusercontent.com/ImpulsionDN/cap-vitae/pinterest-assets/...).
 - Série 2 importée le 18/10 (48 épingles, 1/jour à 19 h, du 03/11 au 20/12) : 24 nouvelles images (branche pinterest-assets, dossier coloriages-noel-2) + 24 rappels de décembre sur des images existantes. CSV : pinterest/Import_Pinterest_Coloriages_Noel_serie2.csv, générateur sources/promo_pins2.py.
+- 19/10 : les imports du 17-18/10 n'avaient créé que la 1re ou les 2 premières épingles (Pinterest refuse les lignes dont le lien est déjà utilisé, et deux titres identiques dans un même fichier). Correction : chaque épingle a un lien unique (amazon.fr/dp/ASIN?pin=s1-03, s2-xx, m-xx) et un titre unique. Complément de 89 épingles importé le 19/10 (pinterest/Import_Pinterest_complement_19oct.csv). Doublons à supprimer à la main : Père Noël 19/10, marché de Noël 03/11, pingouin 04/11.
 - Astuce import : la page Pinterest bloque fetch ; construire le CSV dans la page et le déposer par un événement drop sur la zone « Glissez votre fichier ».
 - Mandalas importés le 18/10 : 30 épingles, un jour sur deux à 12 h, du 22/10 au 19/12, lien https://www.amazon.fr/dp/B0HNGRHJBY. Images : branche pinterest-assets, dossier mandalas-noel. CSV : pinterest/Import_Pinterest_Mandalas_Noel.csv, générateur sources/promo_pins_mandala.py.
 

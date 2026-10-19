@@ -100,7 +100,7 @@ REMIND = [
      "Encore un cadeau à trouver ? 40 coloriages mystères de Noël cosy, grand format, solutions incluses. Disponible sur Amazon."),
     ('k', S2 + '12_K14_cadeau_enfant.jpg', 'Dernière minute : cadeau de Noël pour enfant de 6 à 10 ans',
      "Il manque un cadeau ? 40 coloriages magiques de Noël, grandes cases faciles, solutions à la fin. Disponible sur Amazon."),
-    ('a', S1 + '11_A06_anti_stress.jpg', 'Coloriages de Noël anti-stress pour adultes',
+    ('a', S1 + '11_A06_anti_stress.jpg', 'Coloriages anti-stress pour souffler pendant les fêtes',
      "Chalet, renne, marché de Noël, boule à neige : 40 coloriages mystères pour souffler pendant les préparatifs. Un dessin par page, solutions incluses."),
     ('k', S1 + '12_K06_enfant_6_ans.jpg', 'Coloriage de Noël pour enfant de 6 ans : renne, lutin, traîneau',
      "Renne, lutin, traîneau, cadeaux, renard... 40 coloriages magiques de Noël à découvrir case par case. Le cadeau qui occupe pendant les vacances."),
