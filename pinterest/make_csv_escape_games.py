@@ -4,7 +4,7 @@ import csv, datetime
 
 IMG = {'liste': '71pJ98Uz1YL', 'horloger': '71LEHx63JwL', 'kerdaniel': '713ClZNjL5L', 'dame': '71B91t3U9ML'}
 ASIN = {'liste': 'B0HQFX7D6R', 'horloger': 'B0HPKXPL4Q', 'kerdaniel': 'B0HQCDQ31Q', 'dame': 'B0HPLFXQZ7'}
-BOARD = "Escape games et calendriers de l'Avent"
+BOARD = "Calendrier de l'Avent escape game"
 KW = {
  'liste': "calendrier de l'avent enfant, escape game enfant, calendrier de l'avent livre, énigmes enfant 8 ans, activité noël enfant",
  'horloger': "calendrier de l'avent adulte, escape game livre adulte, calendrier de l'avent original, énigmes adulte, idée cadeau noël",
