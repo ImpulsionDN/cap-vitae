@@ -1,5 +1,5 @@
 """CSV Pinterest pour les escape games d'Adrien Valcourt (20/11 -> 20/12/2026).
-Images : couvertures Amazon (une URL unique par épingle grâce à ?v=N). Liens uniques (?pin=...)."""
+Images : couvertures Amazon (une taille différente par épingle, _SL1000_, _SL999_..., car Pinterest ignore ?v=N sur les images Amazon). Liens uniques (?pin=...)."""
 import csv, datetime
 
 IMG = {'liste': '71pJ98Uz1YL', 'horloger': '71LEHx63JwL', 'kerdaniel': '713ClZNjL5L', 'dame': '71B91t3U9ML'}
@@ -108,7 +108,7 @@ rows = []; used = {k: 0 for k in T}
 for book, d, h in sorted(slots(), key=lambda x: (x[1], x[2])):
     n = used[book]; used[book] += 1
     title, desc = T[book][n]
-    rows.append({'Title': title, 'Media URL': f"https://m.media-amazon.com/images/I/{IMG[book]}._SL1000_.jpg?v={n+1}",
+    rows.append({'Title': title, 'Media URL': f"https://m.media-amazon.com/images/I/{IMG[book]}._SL{1000-n}_.jpg",
                  'Pinterest board': BOARD, 'Thumbnail': '', 'Description': desc + TAG[book],
                  'Link': f"https://www.amazon.fr/dp/{ASIN[book]}?pin={book}-{n+1:02d}",
                  'Publish date': f"{d}T{h}", 'Keywords': KW[book]})
