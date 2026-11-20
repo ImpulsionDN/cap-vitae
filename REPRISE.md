@@ -30,6 +30,7 @@ Mémo pour la session Claude qui reprend la gestion depuis l'ordinateur de Denis
 
 ## YouTube
 - 20/11 : la chaîne « L'œil de Nostradamus » (21 abonnés, 20 vidéos) est renommée « Oracle Arcana », identifiant @OracleArcana, ID UCv92LdHsIAtXUtPtx5UjhOQ, avec l'accord de Denis. Logo et bannière : promo/YouTube_logo_Oracle_Arcana.png, promo/YouTube_banniere_Oracle_Arcana.png. Description et lien vers oracle-arcana.fr. Prévu : Shorts heures miroirs, horoscope, nombres angéliques. Denis a 18 chaînes sur le même compte Google (choix par studio.youtube.com).
+- 20/11 : 1er Short publié en public avec l'accord de Denis : 11h11, https://youtube.com/shorts/taypgofADD4 (générateur youtube/render.py + youtube/11h11.json ; texte + musique d'ambiance générée, pas de voix : aucune synthèse vocale accessible depuis le conteneur). Import : fichier injecté depuis raw.githubusercontent dans input[name=Filedata] de YouTube Studio ; « Pas conçue pour les enfants » ; bouton « Publier quand même » si la vérification n'est pas finie. Attention : les paramètres d'importation par défaut de la chaîne pré-remplissent encore un titre et une description Nostradamus.
 
 ## Préférences de Denis
 Direct et franc, une action à la fois, instructions prêtes à copier, pas de tirets cadratins, pas de « satisfait ou remboursé ». Il veut que Claude gère tout lui-même.
