@@ -24,6 +24,9 @@ Mémo pour la session Claude qui reprend la gestion depuis l'ordinateur de Denis
 - 19/11 soir : le 1er import n'a créé que 4 épingles sur 65 (Pinterest considère ...jpg?v=2 comme la même image Amazon). Les 4 créées par erreur sur Oracle Arcana ont été supprimées avec l'accord de Denis, ainsi que le tableau vide. Correctif importé sur Studio Impulsion : les 61 autres lignes avec des tailles d'image différentes (_SL999_, _SL998_...). Les deux comptes sont maintenant reliés dans le panneau (menu en haut à droite pour basculer).
 - État au 19/11 : 0 vente sur 30 jours (tableau de bord KDP), aucun budget publicité. Il restait 46 épingles coloriages programmées.
 
+## Page auteur Amazon
+- 20/11 : nom de plume « Studio Impulsion » créé dans la Plateforme Auteurs (author.amazon.fr, même compte qu'Adrien Valcourt ; bascule par l'icône en haut à droite). Biographie FR publiée, logo SI (promo/Photo_profil_A.png) en photo. Livres rattachés : Noël cosy, Coloriages magiques, Vendre sans forcer ; Mandalas demandé le 20/11 (validation Amazon en attente).
+
 ## Préférences de Denis
 Direct et franc, une action à la fois, instructions prêtes à copier, pas de tirets cadratins, pas de « satisfait ou remboursé ». Il veut que Claude gère tout lui-même.
 
