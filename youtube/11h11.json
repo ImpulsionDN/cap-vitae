@@ -1,0 +1,33 @@
+{
+  "name": "Short_heure_miroir_11h11",
+  "scenes": [
+    {"dur": 4.5, "groups": [
+      {"at": 0.2, "lines": [{"style": "label", "text": "HEURE MIROIR", "y": 560}]},
+      {"at": 0.5, "lines": [{"style": "big", "text": "11:11", "y": 640, "size": 280}]},
+      {"at": 1.8, "lines": [{"style": "italic", "text": "Vous la voyez souvent ?", "y": 1010, "size": 84}]}
+    ]},
+    {"dur": 5.0, "groups": [
+      {"at": 0.2, "lines": [{"style": "title", "text": "C'est l'heure miroir la plus puissante.", "y": 620, "size": 96}]},
+      {"at": 2.0, "lines": [{"style": "italic", "text": "Un portail entre vous et l'univers.", "y": 950, "size": 84}]}
+    ]},
+    {"dur": 5.0, "groups": [
+      {"at": 0.2, "lines": [{"style": "label", "text": "ANGE ASSOCIÉ", "y": 600}]},
+      {"at": 0.4, "lines": [{"style": "big", "text": "Hahaiah", "y": 670, "size": 170}]},
+      {"at": 2.0, "lines": [{"style": "title", "text": "Vos pensées ont une force décuplée.", "y": 960, "size": 84}]}
+    ]},
+    {"dur": 5.0, "groups": [
+      {"at": 0.2, "lines": [{"style": "label", "text": "EN AMOUR", "y": 600}]},
+      {"at": 0.4, "lines": [{"style": "title", "text": "Le signe d'une connexion d'âme.", "y": 680, "size": 96}]},
+      {"at": 2.2, "lines": [{"style": "italic", "text": "Faites un vœu sincère pour votre cœur.", "y": 960, "size": 80}]}
+    ]},
+    {"dur": 5.0, "groups": [
+      {"at": 0.2, "lines": [{"style": "label", "text": "NUMÉROLOGIE", "y": 560}, {"style": "title", "text": "11, le nombre maître de l'intuition", "y": 630, "size": 84}]},
+      {"at": 2.0, "lines": [{"style": "label", "text": "ÉCHO DU TAROT", "y": 960}, {"style": "title", "text": "La Force", "y": 1030, "size": 110}]}
+    ]},
+    {"dur": 5.5, "logo": true, "groups": [
+      {"at": 0.6, "lines": [{"style": "italic", "text": "Faites un vœu, maintenant.", "y": 720, "size": 80}]},
+      {"at": 1.6, "lines": [{"style": "small", "text": "Toutes les heures miroirs sur", "y": 900, "size": 46}, {"style": "title", "text": "oracle-arcana.fr", "y": 960, "size": 96}]},
+      {"at": 2.8, "lines": [{"style": "label", "text": "ABONNEZ-VOUS POUR VOTRE PROCHAIN SIGNE", "y": 1150}]}
+    ]}
+  ]
+}
