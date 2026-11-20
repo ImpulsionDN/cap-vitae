@@ -33,7 +33,7 @@ Mémo pour la session Claude qui reprend la gestion depuis l'ordinateur de Denis
 - 20/11 : 1er Short publié en public avec l'accord de Denis : 11h11, https://youtube.com/shorts/taypgofADD4 (générateur youtube/render.py + youtube/11h11.json ; texte + musique d'ambiance générée, pas de voix : aucune synthèse vocale accessible depuis le conteneur). Import : fichier injecté depuis raw.githubusercontent dans input[name=Filedata] de YouTube Studio ; « Pas conçue pour les enfants » ; bouton « Publier quand même » si la vérification n'est pas finie. Attention : les paramètres d'importation par défaut de la chaîne pré-remplissent encore un titre et une description Nostradamus.
 
 ## Préférences de Denis
-Direct et franc, une action à la fois, instructions prêtes à copier, pas de tirets cadratins, pas de « satisfait ou remboursé ». Il veut que Claude gère tout lui-même.
+Direct et franc, une action à la fois, instructions prêtes à copier, pas de tirets cadratins, pas de « satisfait ou remboursé », pas de pictogrammes (emoji) dans les titres et descriptions. Il veut que Claude gère tout lui-même.
 
 ## Metricool
 Compte gratuit, une seule marque (Oracle Arcana), quota mensuel atteint depuis le 13/10 (repart le 01/11). Ne pas l'utiliser pour Studio Impulsion.
