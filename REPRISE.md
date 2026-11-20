@@ -49,3 +49,8 @@ sources/ : générateurs Python (mosaïques, pixels, mandalas, couvertures, épi
 - Méthode : texte youtube/long/voix_partie_*.txt collé dans ElevenLabs via le panneau navigateur, MP3 téléchargés dans Téléchargements (accès accordé par Denis), récupérés, puis align.py (phrases calées sur les pauses) + render_long.py. Fichiers vidéo sur la branche youtube-assets.
 - Denis range les vidéos et voix off sur son PC dans Téléchargements\Oracle Arcana Vidéos Youtube : y déposer les prochaines.
 - Seuils de monétisation : 1 000 abonnés + 4 000 h (8 000 h à partir du 01/02/2027).
+
+## Livres d'Élise Arcane sur oracle-arcana.fr (20/11)
+- Kindle : Parlez à l'univers B0GPP5JPXS (3,99 €), Le code secret de l'abondance B0GPWDSH34 (3,99 €), 60 techniques B0GPCYCLTL (4,99 €).
+- Repo ImpulsionDN/arcana-mystica (main, GitHub Pages) : page livres.html + encart livres-arcane.js sur les 37 pages heures miroirs/inversées, les 10 nombres angéliques, heures-miroirs.html et nombres-angeliques.html ; lien « Livres d'Élise Arcane » dans le pied de page de l'accueil ; sitemap. Pour ajouter un livre : compléter LIVRES_ARCANE dans livres-arcane.js.
+- Description YouTube de la vidéo longue : enregistrement refusé (« Petit problème ») pendant la vérification, nouvel essai programmé.
