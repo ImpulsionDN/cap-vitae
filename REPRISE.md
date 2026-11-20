@@ -26,6 +26,7 @@ Mémo pour la session Claude qui reprend la gestion depuis l'ordinateur de Denis
 
 ## Page auteur Amazon
 - 20/11 : nom de plume « Studio Impulsion » créé dans la Plateforme Auteurs (author.amazon.fr, même compte qu'Adrien Valcourt ; bascule par l'icône en haut à droite). Biographie FR publiée, logo SI (promo/Photo_profil_A.png) en photo. Livres rattachés : Noël cosy, Coloriages magiques, Vendre sans forcer ; Mandalas demandé le 20/11 (validation Amazon en attente).
+- 20/11 : nom de plume « Élise Arcane » créé (3e et dernier autorisé par compte Amazon : impossible d'ajouter Claire Orage sur ce compte). Biographie FR publiée. En attente de vérification Amazon : ajout des livres refusé et photo grisée tant que ce n'est pas validé. Logo prêt : promo/Photo_profil_Elise_Arcane.png.
 
 ## Préférences de Denis
 Direct et franc, une action à la fois, instructions prêtes à copier, pas de tirets cadratins, pas de « satisfait ou remboursé ». Il veut que Claude gère tout lui-même.
