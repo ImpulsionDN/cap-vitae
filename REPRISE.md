@@ -47,4 +47,5 @@ sources/ : générateurs Python (mosaïques, pixels, mandalas, couvertures, épi
 - « Les 24 heures miroirs et leur signification » (10 min 36, 16:9, chapitres, miniature perso) programmée le 21/11 à 12 h sur Oracle Arcana (id 30n5afarlm4).
 - Voix : ElevenLabs de Denis (offre gratuite, 10 000 crédits/mois, voix « Nathalie - Calm French Storyteller », modèle v4). 9 400 crédits utilisés ce mois-ci, il en reste environ 540.
 - Méthode : texte youtube/long/voix_partie_*.txt collé dans ElevenLabs via le panneau navigateur, MP3 téléchargés dans Téléchargements (accès accordé par Denis), récupérés, puis align.py (phrases calées sur les pauses) + render_long.py. Fichiers vidéo sur la branche youtube-assets.
+- Denis range les vidéos et voix off sur son PC dans Téléchargements\Oracle Arcana Vidéos Youtube : y déposer les prochaines.
 - Seuils de monétisation : 1 000 abonnés + 4 000 h (8 000 h à partir du 01/02/2027).
