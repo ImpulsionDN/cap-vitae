@@ -4,3 +4,7 @@ sources/*.pdf
 __pycache__/
 sources/pins_m/
 sources/mcache/
+youtube/videos/
+youtube/json/
+youtube/build/
+youtube/__pycache__/

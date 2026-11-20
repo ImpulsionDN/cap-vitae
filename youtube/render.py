@@ -67,11 +67,21 @@ def star_shape(d, x, y, r, col):
 
 def ease(x): x = max(0, min(1, x)); return x * x * (3 - 2 * x)
 
+def nrows(txt, fp, sz, wg):
+    f = font(fp, sz, wg); d = ImageDraw.Draw(Image.new('RGB', (10, 10)))
+    rows = 1; cur = ''
+    for w_ in txt.split(' '):
+        test = (cur + ' ' + w_).strip()
+        if d.textlength(test, font=f) > 900 and cur: rows += 1; cur = w_
+        else: cur = test
+    return rows
+
 def build(data):
     L = lambda s: (s, SANS, 44, GOLD, None, 600)
     scenes = []
     for sc in data['scenes']:
         groups = []
+        bottom = 0
         for g in sc['groups']:
             lines = []
             for ln in g['lines']:
@@ -80,7 +90,12 @@ def build(data):
                 col = {'label': GOLD, 'big': GOLD2, 'title': CREAM, 'italic': ROSE, 'small': CREAM}[ln['style']]
                 wg = 600 if ln['style'] == 'label' else (500 if ln['style'] == 'small' else None)
                 lines.append((ln['text'], fp, sz, col, ln['y'], wg))
-            groups.append((g['at'], text_layer(lines)))
+            fixed = []
+            for (txt, fp, sz, col, y, wg) in lines:
+                if y < bottom + 30: y = bottom + 30
+                bottom = y + int(sz * 1.18) * nrows(txt, fp, sz, wg)
+                fixed.append((txt, fp, sz, col, y, wg))
+            groups.append((g['at'], text_layer(fixed)))
         scenes.append((sc['dur'], groups, sc.get('logo', False)))
     return scenes
 
@@ -119,21 +134,31 @@ def frame(bg, scene, t, gt):
         img = Image.alpha_composite(img, Image.fromarray(arr))
     return img.convert('RGB')
 
-def audio(total, scene_starts, path):
+PROGS = [
+    [[0, 3, 7, 14], [-4, 0, 3, 10], [-2, 2, 5, 12], [-5, 0, 3, 10]],
+    [[0, 4, 7, 11], [5, 9, 12, 16], [-3, 0, 4, 7], [2, 5, 9, 12]],
+    [[0, 3, 7, 10], [-2, 2, 5, 9], [-4, 0, 3, 7], [-7, -3, 0, 3]],
+    [[0, 7, 12, 16], [-3, 4, 9, 12], [-5, 2, 7, 11], [-1, 2, 7, 14]],
+    [[0, 3, 7, 12], [1, 5, 8, 12], [-2, 3, 7, 10], [0, 3, 7, 14]],
+]
+def audio(total, scene_starts, path, seed=0):
+    rnd = random.Random(seed)
     sr = 44100; n = int(total * sr); t = np.arange(n) / sr
     out = np.zeros(n)
-    chords = [[220.0, 261.63, 329.63, 493.88], [174.61, 220.0, 261.63, 392.0], [196.0, 246.94, 293.66, 440.0], [164.81, 220.0, 261.63, 392.0]]
-    seg = total / len(chords)
-    for i, ch in enumerate(chords):
+    root = 196.0 * 2 ** (rnd.randint(-3, 4) / 12)
+    prog = PROGS[seed % len(PROGS)]
+    bright = rnd.uniform(0.06, 0.22); lfo = rnd.uniform(0.08, 0.2)
+    seg = total / len(prog)
+    for i, ch in enumerate(prog):
         s0 = i * seg; env = np.clip(np.minimum((t - s0 + 1.5) / 2.5, (s0 + seg + 1.5 - t) / 2.5), 0, 1)
-        for f in ch:
-            out += env * (np.sin(2 * np.pi * f * t) * 0.5 + np.sin(2 * np.pi * f * 2.003 * t) * 0.12) * (0.6 + 0.4 * np.sin(2 * np.pi * 0.13 * t + f))
+        for semi in ch:
+            f = root * 2 ** (semi / 12)
+            out += env * (np.sin(2 * np.pi * f * t) * 0.5 + np.sin(2 * np.pi * f * 2.003 * t) * bright + np.sin(2 * np.pi * f * 0.5 * t) * 0.18) * (0.6 + 0.4 * np.sin(2 * np.pi * lfo * t + f))
     out *= 0.05
-    for s in scene_starts:  # soft chime
+    bell = [root * 2 ** (s / 12) * 4 for s in rnd.sample([0, 3, 5, 7, 10, 12, 14], 3)]
+    for s in scene_starts:
         k = (t >= s); tt = (t - s)[k]
-        ch = sum(np.sin(2 * np.pi * f * tt) for f in (1318.5, 1975.5, 2637.0)) * np.exp(-tt * 2.2) * 0.06
-        out[k] += ch
-    # simple reverb
+        out[k] += sum(np.sin(2 * np.pi * f * tt) for f in bell) * np.exp(-tt * 2.2) * 0.06
     for dl, g in ((0.11, .35), (0.23, .25), (0.37, .18), (0.53, .12)):
         d = int(dl * sr); out[d:] += out[:-d] * g
     fade = np.minimum(1, np.minimum(t / 1.0, (total - t) / 1.5)); out *= fade
@@ -161,7 +186,7 @@ def main():
     with open(f'{out}/list.txt', 'w') as f:
         for fn in files: f.write(f"file '{os.path.abspath(fn)}'\n")
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', f'{out}/list.txt', '-c', 'copy', f'{out}/video.mp4'], check=True)
-    audio(gt, starts, f'{out}/music.wav')
+    audio(gt, starts, f'{out}/music.wav', data.get('seed', 0))
     final = f'{out}/{data["name"]}.mp4'
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', f'{out}/video.mp4', '-i', f'{out}/music.wav', '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-shortest', final + '.tmp.mp4'], check=True)
     os.replace(final + '.tmp.mp4', final); print(final, gt)
